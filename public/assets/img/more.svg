@@ -1,0 +1,13 @@
+<svg id="more" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.08" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_212" data-name="Rectangle 212" width="1080" height="1080" fill="none"/>
+  <path id="Union_50" data-name="Union 50" d="M-14086,6368v0c0-297.127,240.872-538,538-538s538,240.873,538,538v0c0,297.13-240.869,538-538,538S-14086,6665.132-14086,6368Z" transform="translate(14087.998 -5828)" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_425" data-name="Ellipse 425" cx="112.5" cy="112.5" r="112.5" transform="translate(135 428)" fill="#fff"/>
+  <circle id="Ellipse_426" data-name="Ellipse 426" cx="112.5" cy="112.5" r="112.5" transform="translate(428 428)" fill="#fff"/>
+  <circle id="Ellipse_427" data-name="Ellipse 427" cx="112.5" cy="112.5" r="112.5" transform="translate(721 428)" fill="#fff"/>
+</svg>

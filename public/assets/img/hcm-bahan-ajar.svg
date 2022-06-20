@@ -1,0 +1,34 @@
+<svg id="hcm-bahan-ajar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.525" y1="0.956" x2="0.183" y2="0.117" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#e2e6ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.349" y1="0.097" x2="0.784" y2="0.771" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="-0.096" x2="0.227" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#676767"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.164" x2="0.801" y2="1.134" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff1c8"/>
+      <stop offset="1" stop-color="#ffda74"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.317" y1="-0.094" x2="0.5" y2="1" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_302" data-name="Group 302" transform="translate(-25.123 -12.617)">
+    <path id="Union_708" data-name="Union 708" d="M7748.085-17858.6,7040-18566.684a102,102,0,0,1,0-144.246l133.574-133.578a102,102,0,0,1,144.251,0l708.086,708.082a102,102,0,0,1,0,144.252L7892.332-17858.6a101.686,101.686,0,0,1-72.125,29.875A101.674,101.674,0,0,1,7748.085-17858.6Z" transform="translate(-6972.921 18899.084)" fill="url(#linear-gradient)"/>
+    <path id="Union_709" data-name="Union 709" d="M1152,237.389V33a33,33,0,0,1,66,0V237.389Zm-126,0v-80a33,33,0,0,1,66,0v80Zm-126,0v-80a33,33,0,0,1,66,0v80Zm-126,0v-80a33,33,0,0,1,66,0v80Zm-126,0V33a33,33,0,1,1,66,0V237.389Zm-126,0v-80a33,33,0,0,1,66,0v80Zm-126,0v-80a33,33,0,0,1,66,0v80Zm-126,0v-80a33,33,0,0,1,66,0v80Z" transform="translate(65.066 -6.903) rotate(45)" fill="rgba(0,0,0,0.24)"/>
+    <path id="Intersection_91" data-name="Intersection 91" d="M7332.037-18274.643l277.826-277.826,277.826,277.824-277.827,277.826Z" transform="translate(-7015.171 18856.834)" fill="rgba(0,0,0,0.15)"/>
+    <g id="Group_303" data-name="Group 303">
+      <path id="Union_677" data-name="Union 677" d="M162.647,954.876,29.072,821.3a102,102,0,0,1,0-144.249L677.051,29.071a102,102,0,0,1,144.25,0L954.877,162.646a102,102,0,0,1,0,144.25L306.9,954.876a102,102,0,0,1-144.249,0Z" transform="translate(108.291 25.506)" fill="url(#linear-gradient-2)"/>
+      <path id="Union_676" data-name="Union 676" d="M0,135.816,106.743,29.071a102,102,0,0,1,144.249,0L384.567,162.646a102,102,0,0,1,0,144.25L277.823,413.641Z" transform="translate(678.602 25.506)" fill="url(#linear-gradient-3)"/>
+      <path id="Subtraction_192" data-name="Subtraction 192" d="M54.282,349.177h0a53.644,53.644,0,0,1-13.028-1.607,54.433,54.433,0,0,1-11.957-4.555,55.972,55.972,0,0,1-25.255-26.98,54.064,54.064,0,0,1-2.069-38.067L41.72,148.391c.306-1,.588-2.018.837-3.034L70.4,31.793a101.54,101.54,0,0,0,29.225,83.658L233.2,249.026A101.328,101.328,0,0,0,305.326,278.9a103,103,0,0,0,11.505-.647l-113.54,27.838c-1.01.247-2.031.529-3.034.836L70.682,346.68A55.913,55.913,0,0,1,54.282,349.177Z" transform="translate(37.736 731.355)" fill="url(#linear-gradient-4)"/>
+      <path id="Subtraction_193" data-name="Subtraction 193" d="M54.284,146.788h0a53.641,53.641,0,0,1-13.027-1.607,54.432,54.432,0,0,1-11.957-4.555A55.971,55.971,0,0,1,4.04,113.646,54.064,54.064,0,0,1,1.971,75.578L25.156,0l121.1,121.1L70.683,144.29A55.912,55.912,0,0,1,54.284,146.788Z" transform="translate(37.734 933.742)" fill="url(#linear-gradient-5)"/>
+      <path id="Union_678" data-name="Union 678" d="M13.513,482.2a46.138,46.138,0,0,1,0-65.25L416.946,13.514a46.139,46.139,0,0,1,65.25,65.25L78.763,482.2a46.139,46.139,0,0,1-65.25,0Z" transform="translate(329.454 400.336)" fill="rgba(0,0,0,0.24)"/>
+    </g>
+  </g>
+</svg>

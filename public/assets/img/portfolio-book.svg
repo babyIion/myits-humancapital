@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080.002" height="1080.002" viewBox="0 0 1080.002 1080.002">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.08" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd868"/>
+      <stop offset="1" stop-color="#fccb3c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.08" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#efefef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-1.838" y1="0.236" x2="1.792" y2="0.894" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d98500"/>
+      <stop offset="1" stop-color="#fccb3c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.735" y1="0" x2="0.204" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="0.884" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b55f08"/>
+      <stop offset="1" stop-color="#d98500"/>
+    </linearGradient>
+  </defs>
+  <g id="portfolio-book" transform="translate(0.002)">
+    <g id="Group_44" data-name="Group 44">
+      <path id="Union_50" data-name="Union 50" d="M-14006,6910a80,80,0,0,1-80-80V5910a80,80,0,0,1,80-80h920a80,80,0,0,1,80,80v920a80,80,0,0,1-80,80Z" transform="translate(14086 -5830)" fill="url(#linear-gradient)"/>
+      <path id="Union_51" data-name="Union 51" d="M-14006,6027a80,80,0,0,1-80-80v-37a80,80,0,0,1,80-80h308a80,80,0,0,1,80,80v37a80,80,0,0,1-80,80Z" transform="translate(14445 -5617)" fill="url(#linear-gradient-2)"/>
+      <path id="Subtraction_13" data-name="Subtraction 13" d="M-13914,6910h-92a79.494,79.494,0,0,1-31.14-6.287,80.084,80.084,0,0,1-13.59-7.375,80.651,80.651,0,0,1-11.839-9.77,80.53,80.53,0,0,1-9.769-11.839,79.945,79.945,0,0,1-7.376-13.589A79.5,79.5,0,0,1-14086,6830V5910a79.5,79.5,0,0,1,6.287-31.139,79.963,79.963,0,0,1,7.376-13.589,80.56,80.56,0,0,1,9.769-11.84,80.638,80.638,0,0,1,11.839-9.769,80.081,80.081,0,0,1,13.59-7.376A79.509,79.509,0,0,1-14006,5830h92V6910Z" transform="translate(14086 -5830)" fill="url(#linear-gradient-3)"/>
+      <path id="Union_52" data-name="Union 52" d="M-13963.5,6075a122.5,122.5,0,0,1-122.5-122.5,122.5,122.5,0,0,1,122.5-122.5h894.5v245Z" transform="translate(14149 -5062)" fill="url(#linear-gradient-4)"/>
+      <path id="Subtraction_11" data-name="Subtraction 11" d="M144.221,185.59h0L72.111,120.38,0,185.588V-37H144.221V185.59Z" transform="translate(171.999 894.412)" fill="url(#linear-gradient-5)"/>
+      <path id="Subtraction_14" data-name="Subtraction 14" d="M-13914,5955h-109.5a62.1,62.1,0,0,1-24.327-4.912,62.3,62.3,0,0,1-19.867-13.4,62.278,62.278,0,0,1-13.395-19.866A62.1,62.1,0,0,1-14086,5892.5a62.091,62.091,0,0,1,4.912-24.328,62.3,62.3,0,0,1,13.395-19.867,62.3,62.3,0,0,1,19.867-13.4A62.1,62.1,0,0,1-14023.5,5830h109.5v125Z" transform="translate(14086 -5696)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <rect id="Rectangle_212" data-name="Rectangle 212" width="1080" height="1080" fill="none"/>
+  </g>
+</svg>

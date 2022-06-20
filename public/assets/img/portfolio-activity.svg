@@ -1,0 +1,32 @@
+<svg id="portfolio-activity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.605" x2="0.5" y2="0.984" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b55f08"/>
+      <stop offset="1" stop-color="#d98500"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" y2="0.128" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ea8c2f"/>
+      <stop offset="1" stop-color="#ffce48"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4d4d4"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#979797"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </linearGradient>
+  </defs>
+  <g id="activity">
+    <path id="Union_23" data-name="Union 23" d="M-186,6443a100,100,0,0,1-100-100v-42a170,170,0,0,1,170-170H37a170,170,0,0,1,170,170v42a100,100,0,0,1-100,100Zm23-487.5c0-69.312,55.068-125.5,123-125.5s123,56.188,123,125.5S27.932,6081-40,6081-163,6024.812-163,5955.5Z" transform="translate(436 -5830)" fill="url(#linear-gradient)"/>
+    <path id="Union_26" data-name="Union 26" d="M-206,6405a80,80,0,0,1-80-80V5910a80,80,0,0,1,80-80H238a80,80,0,0,1,80,80v415a80,80,0,0,1-80,80Z" transform="translate(380 -5325)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_25" data-name="Union 25" d="M-206,6049a80,80,0,0,1-80-80v-59a80,80,0,0,1,80-80H426a80,80,0,0,1,80,80v59a80,80,0,0,1-80,80Z" transform="translate(286 -5369)" fill="url(#linear-gradient-3)"/>
+    <path id="Union_24" data-name="Union 24" d="M81.789,6360.392A173.551,173.551,0,0,1-88.683,6219.341q-.413-1.237-.772-2.511l-47.84-169.837c-10.578-37.552,22.427-72.945,60.624-65.014l151.863,31.536q3.286-.123,6.6-.123h163a173.5,173.5,0,0,1,0,347Z" transform="translate(661.712 -5820.393)" fill="url(#linear-gradient-4)"/>
+    <path id="Union_27" data-name="Union 27" d="M-42,5870a40,40,0,0,1,40-40,40,40,0,0,1,40,40,40,40,0,0,1-40,40A40,40,0,0,1-42,5870Zm-122,0a40,40,0,0,1,40-40,40,40,0,0,1,40,40,40,40,0,0,1-40,40A40,40,0,0,1-164,5870Zm-122,0a40,40,0,0,1,40-40,40,40,0,0,1,40,40,40,40,0,0,1-40,40A40,40,0,0,1-286,5870Z" transform="translate(949 -5503)" fill="url(#linear-gradient-5)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

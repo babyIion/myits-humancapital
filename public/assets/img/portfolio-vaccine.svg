@@ -1,0 +1,22 @@
+<svg id="portfolio-vaccine" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.228" y1="0.219" x2="0.839" y2="0.849" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#005ed6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.131" y1="0.52" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.294" y1="0.278" x2="0.863" y2="0.815" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Group_294" data-name="Group 294">
+    <path id="Union_664" data-name="Union 664" d="M1758.109,14911.964l-326.682-326.687a60,60,0,0,1,84.85-84.85l326.686,326.683a60,60,0,0,1-84.854,84.854Z" transform="translate(-782.389 -14481)" fill="url(#linear-gradient)"/>
+    <path id="Union_665" data-name="Union 665" d="M1519.108,15138.236l-105.359-105.359a35,35,0,0,1,0-49.5L1939.127,14458l154.858,154.858-525.379,525.379a35,35,0,0,1-49.5,0Z" transform="translate(-1203.825 -14267.453)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_667" data-name="Union 667" d="M1468.2,14588.109l-54.448-54.448a35,35,0,0,1,0-49.5l26.165-26.165,103.942,103.945-26.161,26.165a35,35,0,0,1-49.5,0Z" transform="translate(-1229.281 -13691.869)" fill="url(#linear-gradient-3)"/>
+    <path id="Union_668" data-name="Union 668" d="M1400.312,14673.916a16,16,0,0,1,0-22.629L1593.6,14458l22.629,22.625-193.29,193.29a16,16,0,0,1-22.629,0Z" transform="translate(-1393.578 -13600.652)" fill="url(#linear-gradient-4)"/>
+    <path id="Union_666" data-name="Union 666" d="M1464.659,14882.972,1389,14807.311l25.456-25.455,75.657,75.661a18,18,0,1,1-25.456,25.455Zm161.931-161.927-75.661-75.661,25.456-25.456,75.661,75.661a18,18,0,0,1-25.456,25.456Zm161.927-161.928-75.661-75.661,25.456-25.455,75.661,75.66a18,18,0,1,1-25.456,25.456Z" transform="translate(-1103.416 -14167.045)" fill="rgba(255,255,255,0.56)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

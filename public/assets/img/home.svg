@@ -1,0 +1,27 @@
+<svg id="home" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.225" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1878f2"/>
+      <stop offset="1" stop-color="#26b4ff"/>
+    </linearGradient>
+    <filter id="Rectangle_1172" x="123" y="437" width="834" height="173" filterUnits="userSpaceOnUse">
+      <feOffset dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.612" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#22a1fb"/>
+    </linearGradient>
+  </defs>
+  <g id="Home-2" data-name="Home">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M-2336,540h-170a79.5,79.5,0,0,1-31.139-6.287,80.011,80.011,0,0,1-13.589-7.376,80.617,80.617,0,0,1-11.84-9.769,80.568,80.568,0,0,1-9.769-11.84,80,80,0,0,1-7.376-13.589A79.5,79.5,0,0,1-2586,460V0h732V460a79.5,79.5,0,0,1-6.287,31.14,80,80,0,0,1-7.376,13.589,80.577,80.577,0,0,1-9.769,11.84,80.582,80.582,0,0,1-11.84,9.769,80,80,0,0,1-13.589,7.376A79.5,79.5,0,0,1-1934,540h-170V308a80.091,80.091,0,0,0-80-80h-72a80.09,80.09,0,0,0-80,80V540Z" transform="translate(2760 538)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1172)">
+      <rect id="Rectangle_1172-2" data-name="Rectangle 1172" width="732" height="71" transform="translate(174 470)" fill="#26b4ff"/>
+    </g>
+    <path id="Union_1" data-name="Union 1" d="M-2363.463,563c-74.913,0-108.734-93.745-51.076-141.574l456.963-379.058a80,80,0,0,1,102.152,0l456.963,379.058C-1340.8,469.256-1374.623,563-1449.536,563Z" transform="translate(2447 -22)" fill="url(#linear-gradient-2)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

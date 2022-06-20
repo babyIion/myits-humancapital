@@ -1,0 +1,22 @@
+<svg id="scholarship-active" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0" y2="1.36" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.187" y1="0.239" x2="0.763" y2="0.859" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4d4d4"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_188" data-name="Group 188">
+    <rect id="Rectangle_638" data-name="Rectangle 638" width="324" height="324" rx="162" transform="translate(2 2)" fill="url(#linear-gradient)"/>
+    <path id="Union_304" data-name="Union 304" d="M4925.61,7620.145a27.718,27.718,0,0,1-22.692-10.661l-46.828-59.936a27.76,27.76,0,1,1,43.75-34.181l25.773,32.987,74.585-95.463a27.76,27.76,0,0,1,43.75,34.181l-95.64,122.415a27.712,27.712,0,0,1-21.893,10.67C4926.146,7620.156,4925.878,7620.152,4925.61,7620.145Z" transform="translate(-4786.02 -7367.188)" fill="#fff"/>
+    <rect id="Rectangle_641" data-name="Rectangle 641" width="324" height="324" rx="162" transform="translate(2 378)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_642" data-name="Rectangle 642" width="324" height="324" rx="162" transform="translate(2 754)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_643" data-name="Rectangle 643" width="676" height="203" rx="101.5" transform="translate(402 63)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_644" data-name="Rectangle 644" width="676" height="203" rx="101.5" transform="translate(402 439)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_645" data-name="Rectangle 645" width="676" height="203" rx="101.5" transform="translate(402 815)" fill="url(#linear-gradient-2)"/>
+  </g>
+  <rect id="Rectangle_299" data-name="Rectangle 299" width="1080" height="1080" fill="none"/>
+</svg>

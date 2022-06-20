@@ -1,0 +1,21 @@
+<svg id="hcm-kepangkatan" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.353" y1="0.346" x2="0.598" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.25" y1="0.049" x2="0.545" y2="1.381" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fccb3c"/>
+      <stop offset="1" stop-color="#ea8c2f"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_309" data-name="Group 309">
+    <path id="Union_744" data-name="Union 744" d="M3007.336-18315.443c-4.894-.119-9.745-.1-14.525-.09-26.907.076-51.443.15-67.035-23.3l-144.368-260.443-144.367,260.443c-15.6,23.449-40.133,23.375-67.044,23.3-4.775-.014-9.627-.029-14.516.09H2408.767c-10.025,0-29.5-4.158-22.151-23.369l286.744-517.266a60.008,60.008,0,0,1,81.57-23.387l26.478,14.676,26.478-14.676a60,60,0,0,1,81.565,23.393l286.744,517.264c7.345,19.207-12.126,23.365-22.146,23.365Z" transform="translate(-2240.907 19393.443)" fill="url(#linear-gradient)"/>
+    <path id="Intersection_94" data-name="Intersection 94" d="M2550.552-18130.09l122.811-221.543a60.01,60.01,0,0,1,81.569-23.389l26.477,14.678,26.477-14.678a60,60,0,0,1,81.569,23.395l122.524,221.023a392.965,392.965,0,0,1-209.37,74.018l-21.2-38.246-21.228,38.3A392.945,392.945,0,0,1,2550.552-18130.09Z" transform="translate(-2240.909 18889)" fill="rgba(0,0,0,0.15)"/>
+    <g id="Group_310" data-name="Group 310" transform="translate(-41.907)">
+      <circle id="Ellipse_255" data-name="Ellipse 255" cx="395" cy="395" r="395" transform="translate(186.907 2)" fill="url(#linear-gradient-2)"/>
+      <path id="Polygon_99" data-name="Polygon 99" d="M227.427,50.654c9.326-20.04,37.819-20.04,47.145,0l45.67,98.139a26,26,0,0,0,20.3,14.823L447.52,177.194c21.768,2.763,30.537,29.585,14.6,44.672l-78.972,74.777a26,26,0,0,0-7.668,23.722l20.3,107.1c4.106,21.657-18.91,38.277-38.176,27.568L263.631,402.8a26,26,0,0,0-25.263,0l-93.98,52.236c-19.267,10.709-42.282-5.911-38.176-27.568l20.3-107.1a26,26,0,0,0-7.668-23.722L39.876,221.866c-15.933-15.087-7.165-41.91,14.6-44.672l106.978-13.577a26,26,0,0,0,20.3-14.823Z" transform="translate(330.907 141)" fill="#fff1c8"/>
+    </g>
+  </g>
+</svg>

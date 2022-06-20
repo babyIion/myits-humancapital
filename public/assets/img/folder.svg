@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1178" height="1080" viewBox="0 0 1178 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.118" y1="0.736" x2="0.786" y2="-0.309" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e36013"/>
+      <stop offset="1" stop-color="#ffc108"/>
+    </linearGradient>
+    <filter id="Union_397" x="77.501" y="143.001" width="974.998" height="658.999" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.52" y1="0.368" x2="0.517" y2="0.13" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f2ef"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Union_395" x="52" y="208" width="1074.998" height="617.999" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur-2"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.325" y1="0.968" x2="0.636" y2="0.209" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce48"/>
+      <stop offset="1" stop-color="#ffda74"/>
+    </linearGradient>
+    <filter id="Union_492" x="0" y="303.001" width="1178" height="164.999" filterUnits="userSpaceOnUse">
+      <feOffset dy="-18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.369" y1="0.677" x2="0.751" y2="0.067" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5b906"/>
+      <stop offset="1" stop-color="#ffd764"/>
+    </linearGradient>
+  </defs>
+  <g id="folder" transform="translate(49)">
+    <g id="Group_251" data-name="Group 251">
+      <path id="Union_494" data-name="Union 494" d="M24849-7492a80,80,0,0,1-80-80v-840.578h996a80,80,0,0,1,80,80V-7572a80,80,0,0,1-80,80Zm-80-920.579V-8488a80,80,0,0,1,80-80h417.668c129.615,0,180.811,155.424,180.811,155.424Z" transform="translate(-24767 8570)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, -49, 0)" filter="url(#Union_397)">
+        <path id="Union_397-2" data-name="Union 397" d="M14116-6929a77,77,0,0,1-77-77v-403a77,77,0,0,1,77-77h719a77,77,0,0,1,77,77v403a77,77,0,0,1-77,77Z" transform="translate(-13910.5 7680)" fill="#d2d2d2"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -49, 0)" filter="url(#Union_395)">
+        <path id="Union_395-2" data-name="Union 395" d="M14116-6970a77,77,0,0,1-77-77v-362a77,77,0,0,1,77-77h819a77,77,0,0,1,77,77v362a77,77,0,0,1-77,77Z" transform="translate(-13936 7745)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -49, 0)" filter="url(#Union_492)">
+        <path id="Union_492-2" data-name="Union 492" d="M-2586-3452v-63h1076v63Z" transform="translate(2637 3887)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <path id="Union_495" data-name="Union 495" d="M24849-7862.006a80,80,0,0,1-80-80v-626h1076v626a80,80,0,0,1-80,80Z" transform="translate(-24767 8940.003)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <rect id="Rectangle_1087" data-name="Rectangle 1087" width="1080" height="1080" fill="none"/>
+  </g>
+</svg>

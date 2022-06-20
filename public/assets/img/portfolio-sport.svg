@@ -1,0 +1,24 @@
+<svg id="portfolio-sport" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.358" y1="0.231" x2="0.79" y2="0.789" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#676767"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.387" y1="0.117" x2="0.295" y2="0.875" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fccb3c"/>
+      <stop offset="1" stop-color="#ea8c2f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.33" y1="0.065" x2="0.444" y2="1.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d2d2d2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_164" data-name="Group 164">
+    <g id="Group_163" data-name="Group 163" transform="translate(-169.798 -30.937)">
+      <path id="Union_253" data-name="Union 253" d="M169.636,834.6C-25.318,687.691-56.88,400.754,99.14,193.708s440.541-255.8,635.5-108.888,226.516,433.845,70.5,640.891c-95.18,126.308-238.194,193.7-379.509,193.709C335.29,919.422,245.659,891.887,169.636,834.6Z" transform="translate(212.397 32.936)" fill="url(#linear-gradient)"/>
+      <path id="Union_254" data-name="Union 254" d="M57.1,557.362,38.666,543.47A97,97,0,0,1,19.574,407.626l112.5-149.289c-7.741-9.916-15.083-20.243-21.9-30.807A425.877,425.877,0,0,1,86.435,185.7a438.844,438.844,0,0,1-32.8-90.047A458.147,458.147,0,0,1,40.739,0L300.17,195.5l.456.342,18.435,13.891.463.351L578.948,405.57a458.143,458.143,0,0,1-95.5,13.964,438.773,438.773,0,0,1-95.6-6.705,425.878,425.878,0,0,1-46.757-11.289c-12.034-3.639-23.985-7.851-35.652-12.559L192.944,538.27A96.986,96.986,0,0,1,57.1,557.362Z" transform="translate(171.857 532.49)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <circle id="Ellipse_194" data-name="Ellipse 194" cx="206" cy="206" r="206" transform="translate(666 473)" fill="url(#linear-gradient-3)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

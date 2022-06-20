@@ -1,0 +1,21 @@
+<svg id="enterpreneur-money" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.121" y1="0.079" x2="0.652" y2="1.028" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#65d781"/>
+      <stop offset="1" stop-color="#30c455"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.583" y1="0.22" x2="0.366" y2="0.967" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc108"/>
+      <stop offset="1" stop-color="#fb8b02"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_241" data-name="Group 241">
+    <path id="Union_485" data-name="Union 485" d="M-22701-6740a60,60,0,0,1-60-60v-540a60,60,0,0,1,60-60h956a60,60,0,0,1,60,60v540a60,60,0,0,1-60,60Z" transform="translate(22763 7402)" fill="url(#linear-gradient)"/>
+    <path id="Subtraction_147" data-name="Subtraction 147" d="M-21953.994-6881H-22658c-.27-56.521-46.473-102.723-103-102.992V-7296h.5A103.622,103.622,0,0,0-22657-7399.5a.515.515,0,0,0,0-.055.433.433,0,0,1,0-.07V-7400h704l.008.5c0,56.8,46.2,103.232,102.99,103.5l0,312.009h-.23c-.092-.006-.178-.006-.27-.006A103.7,103.7,0,0,0-21953.994-6881Zm-351.506-363a103.616,103.616,0,0,0-103.5,103.5,103.615,103.615,0,0,0,103.5,103.5,103.617,103.617,0,0,0,103.5-103.5A103.617,103.617,0,0,0-22305.5-7244Z" transform="translate(22846 7473)" fill="rgba(0,0,0,0.32)"/>
+  </g>
+  <g id="Group_124" data-name="Group 124" transform="translate(355.617 467.34)">
+    <ellipse id="Ellipse_132" data-name="Ellipse 132" cx="301" cy="305.5" rx="301" ry="305.5" transform="translate(120.383 -0.34)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_214" data-name="Union 214" d="M190.955,340.97V87.391h43.4v24.8c10.23-14.57,30.07-27.59,56.73-27.59,44.021,0,78.43,34.41,78.43,88.04s-34.41,89.28-78.43,89.28c-26.969,0-46.19-13.33-56.73-27.28V340.97Zm43.4-167.71c0,32.55,22.01,50.53,45.26,50.53,23.56,0,45.57-18.6,45.57-51.15s-22.01-49.91-45.57-49.91C256.365,122.73,234.355,140.711,234.355,173.261ZM115.748,259.254l-47.74-84.319H47.548v84.319H4.148V42.874h81.22c52.079,0,78.12,30.07,78.12,66.34,0,26.35-14.57,53.01-49.29,62.311l51.77,87.729Zm-68.2-116.869h36.27c24.18,0,35.031-12.71,35.031-32.24,0-19.22-10.85-31.31-35.031-31.31H47.548Z" transform="translate(249.298 136.229)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

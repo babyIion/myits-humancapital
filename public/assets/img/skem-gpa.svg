@@ -1,0 +1,14 @@
+<svg id="skem-gpa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.062" y1="3.236" x2="0.737" y2="-0.698" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#005ea3"/>
+      <stop offset="1" stop-color="#008ede"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.223" y1="1.361" x2="0.635" y2="0.185" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_166" data-name="Group 166">
+    <path id="Union_259" data-name="Union 259" d="M3745.568,12019.266a80,80,0,0,1,0-113.136l901.562-901.562a80,80,0,1,1,113.138,113.138l-901.562,901.56a80,80,0,0,1-113.138,0Z" transform="translate(-3712.918 -10971.918)" fill="url(#linear-gradient)"/>
+    <path id="Union_258" data-name="Union 258" d="M4255,11680.5a175.5,175.5,0,1,1,175.5,175.5A175.5,175.5,0,0,1,4255,11680.5Zm-566-557a175.5,175.5,0,1,1,175.5,175.5A175.5,175.5,0,0,1,3689,11123.5Z" transform="translate(-3607 -10862)" fill="url(#linear-gradient-2)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

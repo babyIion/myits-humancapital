@@ -1,0 +1,24 @@
+<svg id="hcm-hukuman" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.36" y1="-0.152" x2="0.574" y2="1.497" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eebc99"/>
+      <stop offset="1" stop-color="#9c6644"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.468" y1="0.231" x2="0.537" y2="1.642" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.318" y1="0.338" x2="0.5" y2="2.27" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.386" y1="0.097" x2="0.303" y2="1.415" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-0.115" y1="0.534" x2="0.872" y2="0.546" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.239"/>
+      <stop offset="1" stop-color="#545454" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_308" data-name="Group 308">
+    <path id="Union_730" data-name="Union 730" d="M3945.828-18355.963,3535-18766.791,3655.208-18887l410.831,410.832a85,85,0,0,1,0,120.207,84.75,84.75,0,0,1-60.107,24.895A84.738,84.738,0,0,1,3945.828-18355.963Z" transform="translate(-3020.607 19403.102)" fill="url(#linear-gradient)"/>
+    <path id="Union_733" data-name="Union 733" d="M3535-18551.125,3870.874-18887l289.207,289.207-335.873,335.877Z" transform="translate(-3417.295 19005.703)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_731" data-name="Union 731" d="M3866.631-18459.2,3577.426-18748.4a60.006,60.006,0,0,1,0-84.855l11.313-11.312a60,60,0,0,1,84.856,0l289.205,289.205a60.006,60.006,0,0,1,0,84.855l-11.312,11.313a59.812,59.812,0,0,1-42.426,17.572A59.824,59.824,0,0,1,3866.631-18459.2Z" transform="translate(-3123.845 18867.113)" fill="url(#linear-gradient-3)"/>
+    <path id="Union_732" data-name="Union 732" d="M3866.631-18459.2,3577.426-18748.4a60.006,60.006,0,0,1,0-84.855l11.313-11.312a60,60,0,0,1,84.856,0l289.205,289.205a60.006,60.006,0,0,1,0,84.855l-11.312,11.313a59.812,59.812,0,0,1-42.426,17.572A59.824,59.824,0,0,1,3866.631-18459.2Z" transform="translate(-3555.887 19299.156)" fill="url(#linear-gradient-4)"/>
+    <path id="Union_728" data-name="Union 728" d="M0,170V0H81V170Z" transform="translate(634.601 516.1) rotate(45)" fill="url(#linear-gradient-5)"/>
+    <path id="Union_729" data-name="Union 729" d="M0,15V0H409V15Z" transform="translate(453.581 118.705) rotate(45)" fill="rgba(0,0,0,0.15)"/>
+  </g>
+</svg>

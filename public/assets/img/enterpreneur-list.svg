@@ -1,0 +1,21 @@
+<svg id="enterpreneur-list" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.06" y1="-0.246" x2="0.857" y2="0.922" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9d4edd"/>
+      <stop offset="1" stop-color="#9d4edd"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.349" y1="0.054" x2="0.573" y2="0.762" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_223" data-name="Group 223">
+    <path id="Union_436" data-name="Union 436" d="M-4281-6653a80,80,0,0,1-80-80v-587a80,80,0,0,1,80-80h587a80,80,0,0,1,80,80v587a80,80,0,0,1-80,80Z" transform="translate(4692 7731)" fill="#5a189a"/>
+    <path id="Union_435" data-name="Union 435" d="M-4281-6653a80,80,0,0,1-80-80v-587a80,80,0,0,1,80-80h587a80,80,0,0,1,80,80v587a80,80,0,0,1-80,80Z" transform="translate(4528 7567)" fill="#7b2cbf"/>
+    <path id="Intersection_72" data-name="Intersection 72" d="M-5346-6652v-503a80,80,0,0,1,80-80h503v503a80,80,0,0,1-80,80Z" transform="translate(5677 7566)" fill="rgba(60,9,108,0.23)"/>
+    <path id="Union_434" data-name="Union 434" d="M-4281-6653a80,80,0,0,1-80-80v-587a80,80,0,0,1,80-80h587a80,80,0,0,1,80,80v587a80,80,0,0,1-80,80Z" transform="translate(4363 7402)" fill="url(#linear-gradient)"/>
+    <path id="Intersection_71" data-name="Intersection 71" d="M-5346-6653v-502a80,80,0,0,1,80-80h502v502a80,80,0,0,1-80,80Z" transform="translate(5513 7402)" fill="rgba(123,44,191,0.26)"/>
+    <path id="Union_663" data-name="Union 663" d="M12328.691-18430a48.894,48.894,0,0,1-48.9-48.893,48.9,48.9,0,0,1,48.9-48.9h255.976a48.9,48.9,0,0,1,48.893,48.9,48.891,48.891,0,0,1-48.893,48.893ZM12119-18478.891a48.9,48.9,0,0,1,48.9-48.9,48.9,48.9,0,0,1,48.9,48.9,48.9,48.9,0,0,1-48.9,48.893A48.9,48.9,0,0,1,12119-18478.891Zm209.693-130.711a48.894,48.894,0,0,1-48.9-48.893,48.9,48.9,0,0,1,48.9-48.9h255.976a48.9,48.9,0,0,1,48.893,48.9,48.891,48.891,0,0,1-48.893,48.893ZM12119-18658.494a48.9,48.9,0,0,1,48.9-48.9,48.9,48.9,0,0,1,48.9,48.9,48.9,48.9,0,0,1-48.9,48.893A48.9,48.9,0,0,1,12119-18658.494Zm209.693-130.717a48.894,48.894,0,0,1-48.9-48.893,48.9,48.9,0,0,1,48.9-48.9h255.976a48.9,48.9,0,0,1,48.9,48.9,48.9,48.9,0,0,1-48.9,48.893ZM12119-18838.1a48.9,48.9,0,0,1,48.9-48.9,48.9,48.9,0,0,1,48.9,48.9,48.9,48.9,0,0,1-48.9,48.893A48.9,48.9,0,0,1,12119-18838.1Z" transform="translate(-12000.781 19033.998)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

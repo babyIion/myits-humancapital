@@ -1,0 +1,17 @@
+<svg id="enterpreneur-request" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.454" x2="0.64" y2="0.94" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.613" y1="0.097" x2="0.316" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fccb3c"/>
+      <stop offset="1" stop-color="#ea8c2f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_125" data-name="Group 125">
+    <path id="Union_23" data-name="Union 23" d="M100,792A100,100,0,0,1,0,692V668.893c0-154.64,125.36-280,280-280h76.959c154.64,0,280,125.36,280,280V692a100,100,0,0,1-100,100Zm58.917-629.853C158.917,72.6,230.066,0,317.834,0S476.751,72.6,476.751,162.147,405.6,324.293,317.834,324.293,158.917,251.7,158.917,162.147Z" transform="translate(2 2)" fill="url(#linear-gradient)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <path id="Union_640" data-name="Union 640" d="M15844.049-18295.611v-136.654H15674a105,105,0,0,1-105-105v-30.461a105,105,0,0,1,105-105h170.046v-136.658c0-41.572,46.377-66.34,80.926-43.213l383.777,256.889c30.769,20.592,30.769,65.832,0,86.426l-383.777,256.887a51.4,51.4,0,0,1-28.772,8.875C15869.165-18243.518,15844.049-18265.012,15844.049-18295.611Z" transform="translate(-15253.828 19321.52)" fill="url(#linear-gradient-2)"/>
+</svg>

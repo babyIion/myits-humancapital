@@ -1,0 +1,31 @@
+<svg id="scholarship-profile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.821" y1="0.046" x2="0.145" y2="0.906" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.714" y1="0.279" x2="0.197" y2="0.91" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce48"/>
+      <stop offset="1" stop-color="#ea8c2f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_54" data-name="Group 54">
+    <g id="Group_51" data-name="Group 51" transform="translate(0 0.756)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="405.844" cy="405.844" r="405.844" transform="translate(0 -0.756)" fill="url(#linear-gradient)"/>
+      <path id="Intersection_1" data-name="Intersection 1" d="M6.521,431.2A170.077,170.077,0,0,1,168.995,311.378H337.031A170.078,170.078,0,0,1,499.505,431.2a319.6,319.6,0,0,1-492.984,0Zm120.3-301.733C126.824,57.965,183.32,0,253.013,0S379.2,57.965,379.2,129.468s-56.5,129.467-126.19,129.467S126.824,200.97,126.824,129.468Z" transform="translate(152.831 169.907)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Group_50" data-name="Group 50" transform="translate(55.587 37.587)">
+      <path id="Union_35" data-name="Union 35" d="M80,589A80,80,0,0,1,0,509V80A80,80,0,0,1,80,0H509a80.812,80.812,0,0,1,9.782.592A61.69,61.69,0,0,1,589,61.639v4.478a62.4,62.4,0,0,1-.337,6.487Q589,76.259,589,80V509a80,80,0,0,1-80,80Z" transform="translate(435.413 453.413)" fill="url(#linear-gradient-3)"/>
+      <path id="Union_73" data-name="Union 73" d="M46.081,356a46.081,46.081,0,0,1,0-92.163H391.919a46.081,46.081,0,0,1,0,92.163Zm0-131.919a46.081,46.081,0,0,1,0-92.163H391.919a46.081,46.081,0,0,1,0,92.163Zm0-131.918A46.081,46.081,0,0,1,46.081,0H391.919a46.081,46.081,0,0,1,0,92.163Z" transform="translate(510.413 570.413)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg id="hcm-kesejahteraan" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.135" y1="0.167" x2="0.608" y2="0.644" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#005ed6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.77" y1="0.221" x2="0.143" y2="0.944" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_311" data-name="Group 311">
+    <path id="Subtraction_209" data-name="Subtraction 209" d="M537.959,1076.82,47.492,399.447a253.512,253.512,0,0,1-25.817-44.514,246.72,246.72,0,0,1-4.633-191.064,250.589,250.589,0,0,1,22.641-44.3,253.747,253.747,0,0,1,31.725-39.8,262.1,262.1,0,0,1,40.544-33.842,266.13,266.13,0,0,1,72.849-34.6A269.539,269.539,0,0,1,262.277,0a272.786,272.786,0,0,1,61.36,7A269.142,269.142,0,0,1,381.78,27.684a261.815,261.815,0,0,1,52.2,33.909,258.032,258.032,0,0,1,43.539,46.669L858.656,634.64,538.994,1076.12l-1.034.7Z" transform="translate(2.002 2.004)" fill="url(#linear-gradient)"/>
+    <path id="Intersection_95" data-name="Intersection 95" d="M1412.328-18308.236l320.436-442.543,320.433,442.543-320.434,442.549Z" transform="translate(-1232.998 18889)" fill="rgba(0,0,0,0.15)"/>
+    <path id="Subtraction_212" data-name="Subtraction 212" d="M319.655,1076.821h0l-.327-.222L-.861,634.391,380.093,108.263A257.993,257.993,0,0,1,423.631,61.6a261.842,261.842,0,0,1,52.2-33.91A269.174,269.174,0,0,1,533.979,7a272.743,272.743,0,0,1,61.358-7,269.543,269.543,0,0,1,77.477,11.327,266.135,266.135,0,0,1,72.849,34.6A262.157,262.157,0,0,1,786.207,79.77a253.755,253.755,0,0,1,31.725,39.8,249.23,249.23,0,0,1,35.931,91.651A245.595,245.595,0,0,1,835.94,354.934a253.521,253.521,0,0,1-25.817,44.514L319.656,1076.82Z" transform="translate(220.382 2)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Web_1920_3">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_3" data-name="Web 1920 – 3" clip-path="url(#clip-Web_1920_3)">
+    <rect width="1920" height="1080" fill="#f5f6fa"/>
+    <g id="background-landingpage">
+      <path id="Path_305" data-name="Path 305" d="M2435.225.5s-50.937,207.587-238.8,327.935-309.984,96.279-464.874,197.07-132.1,148.052-236.3,208.226-431.4,148.828-431.4,148.828V.484Z" transform="translate(-1063.859 -0.484)" fill="rgba(232,232,232,0.52)"/>
+      <rect id="Rectangle_618" data-name="Rectangle 618" width="1920" height="1080" fill="none"/>
+      <path id="Path_306" data-name="Path 306" d="M2340.341.5s-59.731,204.421-234.593,322.611-276.218,94-420.392,192.982-127.005,134.055-224,193.151-397.5,157.5-397.5,157.5V.484Z" transform="translate(-1063.859 -0.484)" fill="rgba(222,222,222,0.52)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#1878f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.735" y1="0.191" x2="0.474" y2="0.809" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#005ed6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+  </defs>
+  <g id="announcement" transform="translate(0)">
+    <g id="Group_49" data-name="Group 49">
+      <path id="Union_69" data-name="Union 69" d="M962.5,2517a98.5,98.5,0,0,1,0-197h257a98.5,98.5,0,0,1,0,197Z" transform="translate(-238 -1915)" fill="url(#linear-gradient)"/>
+      <path id="Union_68" data-name="Union 68" d="M1758.27,3081.213,1034.7,2795.173c-67.453-26.665-67.453-122.13,0-148.8l723.571-286.04c52.505-20.757,109.41,17.939,109.41,74.4v572.08c0,45.911-37.633,80.075-79.925,80.078A79.958,79.958,0,0,1,1758.27,3081.213Z" transform="translate(-936.68 -2217.275)" fill="url(#linear-gradient-2)"/>
+      <path id="Union_70" data-name="Union 70" d="M864,2481v-29a132,132,0,0,1,132-132v293A132,132,0,0,1,864,2481Z" transform="translate(-864 -1963)" fill="url(#linear-gradient-3)"/>
+      <path id="Union_72" data-name="Union 72" d="M864,2555.5v-185a50.5,50.5,0,1,1,101,0v185a50.5,50.5,0,0,1-101,0Z" transform="translate(-709 -1670)" fill="url(#linear-gradient-4)"/>
+      <path id="Union_71" data-name="Union 71" d="M864,2711.5v-318a73.5,73.5,0,0,1,147,0v318a73.5,73.5,0,0,1-147,0Z" transform="translate(-732 -2049)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  </g>
+</svg>

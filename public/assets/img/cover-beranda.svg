@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6766" height="1447" viewBox="0 0 6766 1447">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.791" x2="0.146" y2="1.124" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1878f2"/>
+      <stop offset="1" stop-color="#26b4ff"/>
+    </linearGradient>
+    <clipPath id="clip-cover-beranda">
+      <rect width="6766" height="1447"/>
+    </clipPath>
+  </defs>
+  <g id="cover-beranda" clip-path="url(#clip-cover-beranda)">
+    <rect width="6766" height="1447" fill="url(#linear-gradient)"/>
+    <g id="Ellipse_176" data-name="Ellipse 176" transform="translate(4497 373)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="360" cy="360" r="360" stroke="none"/>
+      <circle cx="360" cy="360" r="317" fill="none"/>
+    </g>
+    <g id="Ellipse_177" data-name="Ellipse 177" transform="translate(4701 577)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="156" cy="156" r="156" stroke="none"/>
+      <circle cx="156" cy="156" r="134.5" fill="none"/>
+    </g>
+    <g id="Ellipse_178" data-name="Ellipse 178" transform="translate(5391 781)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="156" cy="156" r="156" stroke="none"/>
+      <circle cx="156" cy="156" r="134.5" fill="none"/>
+    </g>
+    <g id="Ellipse_179" data-name="Ellipse 179" transform="translate(5502 -137)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="468.5" cy="468.5" r="468.5" stroke="none"/>
+      <circle cx="468.5" cy="468.5" r="425.5" fill="none"/>
+    </g>
+    <g id="Ellipse_180" data-name="Ellipse 180" transform="translate(6333 946)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="182" cy="182" r="182" stroke="none"/>
+      <circle cx="182" cy="182" r="139" fill="none"/>
+    </g>
+    <g id="Ellipse_181" data-name="Ellipse 181" transform="translate(6121 733)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="394.5" cy="394.5" r="394.5" stroke="none"/>
+      <circle cx="394.5" cy="394.5" r="373" fill="none"/>
+    </g>
+    <g id="Ellipse_182" data-name="Ellipse 182" transform="translate(5013 26)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="110.5" cy="110.5" r="110.5" stroke="none"/>
+      <circle cx="110.5" cy="110.5" r="89" fill="none"/>
+    </g>
+    <g id="Ellipse_183" data-name="Ellipse 183" transform="translate(5013 1127)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="165.5" cy="165.5" r="165.5" stroke="none"/>
+      <circle cx="165.5" cy="165.5" r="122.5" fill="none"/>
+    </g>
+    <g id="Ellipse_184" data-name="Ellipse 184" transform="translate(6614 -29)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="360" cy="360" r="360" stroke="none"/>
+      <circle cx="360" cy="360" r="317" fill="none"/>
+    </g>
+    <g id="Ellipse_185" data-name="Ellipse 185" transform="translate(4098 -321)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="347" cy="347" r="347" stroke="none"/>
+      <circle cx="347" cy="347" r="325.5" fill="none"/>
+    </g>
+    <g id="Ellipse_186" data-name="Ellipse 186" transform="translate(5259 447)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="85" cy="85" r="85" stroke="none"/>
+      <circle cx="85" cy="85" r="42" fill="none"/>
+    </g>
+    <g id="Ellipse_187" data-name="Ellipse 187" transform="translate(5864 880)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="106.5" cy="106.5" r="106.5" stroke="none"/>
+      <circle cx="106.5" cy="106.5" r="85" fill="none"/>
+    </g>
+    <g id="Ellipse_188" data-name="Ellipse 188" transform="translate(5926 942)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="86">
+      <circle cx="44.5" cy="44.5" r="44.5" stroke="none"/>
+      <circle cx="44.5" cy="44.5" r="1.5" fill="none"/>
+    </g>
+    <g id="Ellipse_189" data-name="Ellipse 189" transform="translate(5499 1147)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="43">
+      <circle cx="311" cy="311" r="311" stroke="none"/>
+      <circle cx="311" cy="311" r="289.5" fill="none"/>
+    </g>
+    <g id="Ellipse_190" data-name="Ellipse 190" transform="translate(5727 88)" fill="none" stroke="rgba(0,0,0,0.24)" stroke-width="247">
+      <circle cx="243.5" cy="243.5" r="243.5" stroke="none"/>
+      <circle cx="243.5" cy="243.5" r="120" fill="none"/>
+    </g>
+  </g>
+</svg>

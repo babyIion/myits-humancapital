@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd868"/>
+      <stop offset="1" stop-color="#ffce48"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+  </defs>
+  <g id="portfolio-enterpreneurship" transform="translate(0 0)">
+    <g id="enterpreneur">
+      <path id="Union_19" data-name="Union 19" d="M2325,6748a80,80,0,0,1-80-80v-80.953c-136.332-62.645-231-200.522-231-360.548,0-218.981,177.3-396.5,396-396.5s396,177.519,396,396.5c0,160.026-94.668,297.9-231,360.548V6668a80,80,0,0,1-80,80Z" transform="translate(-1870 -5830)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_166" data-name="Rectangle 166" width="330" height="125" rx="62.5" transform="translate(375 955)" fill="url(#linear-gradient-2)"/>
+      <path id="Union_36" data-name="Union 36" d="M2158.5,6404.949v-52.425q-51.094-4.523-83.959-33.93t-31.8-86.353l.8-1.6h75.577q0,34.063,16.632,48.567t43.243,14.5q26.079,0,39.12-12.772t13.039-34.862q0-21.82-12.507-34.994t-44.441-25.414q-60.144-20.224-89.148-47.1t-29.008-75.577q0-44.972,29.008-73.58t78.769-33.663V5898.8h42.313v57.747q47.9,6.653,75.043,37.389t26.346,79.967l-.532,1.331h-75.842q0-29.005-13.173-44.574t-36.857-15.568q-25.016,0-36.191,13.039t-11.176,35.127q0,20.49,11.842,32.732t45.371,26.346q59.078,19.159,88.351,46.968t29.271,76.242q0,46.3-28.873,74.112t-78.9,32.866v52.425Z" transform="translate(-1635.647 -5745)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  </g>
+</svg>

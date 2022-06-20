@@ -1,0 +1,17 @@
+<svg id="hcm-pemberhentian" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.66" y1="0.059" x2="0.232" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb2402"/>
+      <stop offset="1" stop-color="#ae0202"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.696" x2="0.305" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f2ef"/>
+      <stop offset="1" stop-color="#f3f2ef"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_312" data-name="Group 312" transform="translate(2 2)">
+    <path id="Polygon_17" data-name="Polygon 17" d="M727.71,0a80,80,0,0,1,56.569,23.431l268.29,268.29A80,80,0,0,1,1076,348.29V727.71a80,80,0,0,1-23.432,56.569l-268.29,268.29A80,80,0,0,1,727.71,1076H348.29a80,80,0,0,1-56.569-23.431L23.431,784.278A80,80,0,0,1,0,727.71V348.29a80,80,0,0,1,23.431-56.569l268.29-268.29A80,80,0,0,1,348.29,0Z" fill="url(#linear-gradient)"/>
+    <path id="Union_106" data-name="Union 106" d="M293.665,903.641a70,70,0,0,1-49.5-20.5L20.5,659.473A69.991,69.991,0,0,1,0,609.975V293.665a70,70,0,0,1,20.5-49.5L244.168,20.5A69.988,69.988,0,0,1,293.665,0h316.31a70,70,0,0,1,49.5,20.5L883.138,244.167a69.991,69.991,0,0,1,20.5,49.5v316.31a70,70,0,0,1-20.5,49.5L659.473,883.138a69.991,69.991,0,0,1-49.5,20.5Zm19.3-816.795a59.974,59.974,0,0,0-30.666,16.41L103.255,282.295a60,60,0,0,0-17.573,42.427v253.2a59.99,59.99,0,0,0,17.573,42.427l179.04,179.04a60,60,0,0,0,42.427,17.574h253.2a59.994,59.994,0,0,0,42.427-17.574l179.04-179.04a60,60,0,0,0,17.574-42.427v-253.2a59.994,59.994,0,0,0-17.574-42.427l-179.04-179.04a60,60,0,0,0-42.427-17.573h-253.2A60.124,60.124,0,0,0,312.962,86.846Zm-59.4,439.2a74.224,74.224,0,1,1,0-148.448H649.087a74.224,74.224,0,1,1,0,148.448Z" transform="translate(86.678 86.678)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

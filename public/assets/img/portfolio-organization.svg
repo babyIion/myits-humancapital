@@ -1,0 +1,18 @@
+<svg id="portfolio-organization" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c89ff"/>
+      <stop offset="1" stop-color="#005ed6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26b4ff"/>
+      <stop offset="1" stop-color="#2c89ff"/>
+    </linearGradient>
+  </defs>
+  <g id="organization">
+    <path id="Union_28" data-name="Union 28" d="M95.151,504.759A95.152,95.152,0,0,1,0,409.607,161.756,161.756,0,0,1,161.756,247.851H244.1A161.756,161.756,0,0,1,405.852,409.607,95.151,95.151,0,0,1,310.7,504.759Zm6.106-401.419C101.257,46.266,146.591,0,202.514,0S303.772,46.266,303.772,103.34,258.437,206.68,202.514,206.68,101.257,160.412,101.257,103.34Z" transform="translate(2 301.389)" fill="url(#linear-gradient)"/>
+    <path id="Union_29" data-name="Union 29" d="M95.151,504.759A95.152,95.152,0,0,1,0,409.607,161.756,161.756,0,0,1,161.756,247.851H244.1A161.756,161.756,0,0,1,405.852,409.607,95.151,95.151,0,0,1,310.7,504.759Zm6.106-401.419C101.257,46.266,146.591,0,202.514,0S303.772,46.266,303.772,103.34,258.437,206.68,202.514,206.68,101.257,160.412,101.257,103.34Z" transform="translate(672.147 301.389)" fill="url(#linear-gradient)"/>
+    <path id="Union_23" data-name="Union 23" d="M100,792A100,100,0,0,1,0,692V558.894a170,170,0,0,1,170-170H466.96a170,170,0,0,1,170,170V692a100,100,0,0,1-100,100Zm58.917-629.853C158.917,72.6,230.066,0,317.834,0S476.751,72.6,476.751,162.147,405.6,324.293,317.834,324.293,158.917,251.7,158.917,162.147Z" transform="translate(221.733 144)" fill="url(#linear-gradient-3)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

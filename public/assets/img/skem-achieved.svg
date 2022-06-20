@@ -1,0 +1,13 @@
+<svg id="skem-achieved" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.236" y1="0.906" x2="0.79" y2="0.104" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#30c455"/>
+      <stop offset="1" stop-color="#65d781"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_185" data-name="Group 185">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="1076" height="1076" rx="538" transform="translate(2 2)" fill="url(#linear-gradient)"/>
+    <path id="Intersection_10" data-name="Intersection 10" d="M5291.749,9474.8a79.567,79.567,0,0,1-46.952-30.938L5088.76,9229.153a79.861,79.861,0,0,1,129.229-93.865L5310,9261.9l379.047-521.616a152.394,152.394,0,0,1,17.167-19.825,540.944,540.944,0,0,1,110.63,115.663l-297.033,408.754c-.27.387-.544.771-.824,1.157l-143.931,198.05a79.983,79.983,0,0,1-83.311,30.718Z" transform="translate(-4837 -8606)" fill="#fff"/>
+  </g>
+  <rect id="Rectangle_299" data-name="Rectangle 299" width="1080" height="1080" fill="none"/>
+</svg>

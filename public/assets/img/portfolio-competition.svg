@@ -1,0 +1,28 @@
+<svg id="portfolio-competition" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.273" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffcd68"/>
+      <stop offset="1" stop-color="#ffd868"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.273" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce48"/>
+      <stop offset="1" stop-color="#ffaa48"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eb831b"/>
+      <stop offset="1" stop-color="#eb831b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.749" x2="0.5" y2="0.29" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fccb3c"/>
+      <stop offset="1" stop-color="#ffd868"/>
+    </linearGradient>
+  </defs>
+  <g id="trophy" transform="translate(0 -4)">
+    <path id="Rectangle_162" data-name="Rectangle 162" d="M80,0H712a80,80,0,0,1,80,80v24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V80A80,80,0,0,1,80,0Z" transform="translate(144 976)" fill="url(#linear-gradient)"/>
+    <path id="Rectangle_163" data-name="Rectangle 163" d="M80,0H440a80,80,0,0,1,80,80v52a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V80A80,80,0,0,1,80,0Z" transform="translate(280 844)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_164" data-name="Rectangle 164" width="111" height="169" transform="translate(485 675)" fill="url(#linear-gradient-3)"/>
+    <path id="Rectangle_156" data-name="Rectangle 156" d="M80,0H405a80,80,0,0,1,80,80V474A200,200,0,0,1,285,674H200A200,200,0,0,1,0,474V80A80,80,0,0,1,80,0Z" transform="translate(298 9)" fill="url(#linear-gradient-4)"/>
+    <path id="Union_20" data-name="Union 20" d="M3803,6119.089a228.887,228.887,0,0,0,17.308-25.441,344.012,344.012,0,0,0,31.747-70.168c9.943-30.8,17.011-68.022,21.191-93.821,4.525-27.935,6.732-48.89,6.753-49.1h-77V5830h154v.023c-.187,1.183-4.661,29.4-13.505,66.27-5.319,22.167-11.175,43.216-17.408,62.56a519.131,519.131,0,0,1-24.975,64.12,393.517,393.517,0,0,1-31.573,54.137,431.972,431.972,0,0,1-31.92,40.6c-10.184,11.473-19.054,20.2-24.7,25.5-6.124,5.75-9.878,8.818-9.916,8.849Zm-485,32.976c-.154-.126-3.852-3.154-9.915-8.847-5.646-5.3-14.516-14.031-24.7-25.5a432.27,432.27,0,0,1-31.921-40.6,393.517,393.517,0,0,1-31.573-54.137,519.232,519.232,0,0,1-24.974-64.12c-6.233-19.346-12.089-40.395-17.408-62.56-9.057-37.753-13.463-66.012-13.507-66.294h154v50.56h-77c.02.188,2.254,21.312,6.755,49.1,4.178,25.8,11.246,63.019,21.191,93.822a343.976,343.976,0,0,0,31.745,70.167A226.606,226.606,0,0,0,3318,6119.09v32.976Z" transform="translate(-3020 -5684.094)" fill="#ffce48"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

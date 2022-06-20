@@ -1,132 +1,460 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Laravel</title>
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@themepixels">
+    <meta name="twitter:creator" content="@themepixels">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DashForge">
+    <meta name="twitter:description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="twitter:image" content="http://themepixels.me/dashforge/img/dashforge-social.png">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Facebook -->
+    <meta property="og:url" content="http://themepixels.me/dashforge">
+    <meta property="og:title" content="DashForge">
+    <meta property="og:description" content="Responsive Bootstrap 4 Dashboard Template">
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:#6b7280;color:rgba(107,114,128,var(--tw-text-opacity))}}
-        </style>
+    <meta property="og:image" content="http://themepixels.me/dashforge/img/dashforge-social.png">
+    <meta property="og:image:secure_url" content="http://themepixels.me/dashforge/img/dashforge-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="author" content="ThemePixels">
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/Icon/favicon.png">
+
+    <title>HumanCapital</title>
+
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- vendor css -->
+    <link href="lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+    <link href="lib/prismjs/themes/prism-vs.css" rel="stylesheet">
+    <link href="lib/animate.css/animate.min.css" rel="stylesheet">
+    <link href="lib/ekko-lightbox/css/ekko-lightbox.css" rel="stylesheet">
+
+
+    <!-- DashForge CSS -->
+    <link rel="stylesheet" href="assets/css/dashforge.css">
+    <link rel="stylesheet" href="assets/css/dashforge.customs.css">
+    <link rel="stylesheet" href="assets/css/dashforge.sizexxl.css">
+
+    <link rel="stylesheet" href="assets/css/skin.light.css">
+    <link rel="stylesheet" href="assets/css/skin.light.customs.css">
+
+    <!-- <link rel="stylesheet" href="assets/css/skin.dark.css">
+    <link rel="stylesheet" href="assets/css/skin.dark.customs.css"> -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+  </head>
+  <body>
+
+<header class="navbar navbar-header navbar-header-fixed pos-fixed z-index-10 wd-100p t-0 d-flex justify-content-between">
+        <div class="d-flex align-items-center mg-l-10 mg-lg-l-20">
+            <!-- <a href="#menu-sidebar" class="btn btn-icon btn-sp-icon off-canvas-menu bdr-sp-50p mg-r-10 d-flex align-items-center"><ion-icon name="menu" class="mg-y-2 tx-18"></ion-icon></a> -->
+        </div>
+        <div class="d-flex align-items-center mg-r-10 mg-lg-r-20">
+          <div class="dropdown mg-b-0 mg-l-15">
+            <a class="btn btn-its-custom-1 tx-uppercase dropdown-toggle" href="#" data-toggle="dropdown">
+                ID
+            </a>
+            <div class="dropdown-menu dropdown-menu-right rounded-its-10 blur-transparent">
+                <a href="" class="dropdown-item">ID - Indonesia</a>
+                <a href="" class="dropdown-item">EN - English</a>
+            </div>
+          </div>
+          <div class="dropdown dropdown-profile">
+            <a href="" class="dropdown-link" data-toggle="dropdown" data-display="static">
+                <div class="avatar avatar-sm">
+                    <img src="assets/img/profile-blank.png" class="rounded-circle" alt="">
                 </div>
-            @endif
-
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
-
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
-                        </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right allow-focus shadow rounded-its-10">
+                <a href="/profil" class="dropdown-item-its tx-poppins tx-medium" style="padding-top: 20px !important; padding-bottom: 20px !important;">
+                    <div class="avatar avatar-md mg-r-15">
+                        <img src="assets/img/profile-blank.png" class="rounded-circle" alt="">
                     </div>
-                </div>
-
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                            </svg>
-
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
-
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
-
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
-                        </div>
+                    <div class="media-body">
+                        <p class="tx-15 tx-poppins tx-semibold mg-b-0 crop-text-1 text-left">Arjuna, S.Kom., M.Kom.</p>
+                        <p class="tx-13 tx-color-03 mg-b-0 crop-text-1 text-left">Pegawai</p>
                     </div>
+                </a>
+                <a href="/lainnya/pengaturan" class="dropdown-item-its tx-poppins tx-medium"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="settings-sharp" class="tx-18"></ion-icon></span></div>Pengaturan Web</a>
+                <a href="" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-target="#chgRoleUser" data-animation="effect-scale"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="people-sharp" class="tx-18"></ion-icon></span></div>Ganti Hak Akses</a>
+                <a href="" class="dropdown-item-its tx-poppins tx-medium"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="log-out-sharp" class="tx-18"></ion-icon></span></div>Keluar</a>
+            </div>
+          </div>
+        </div>
+</header>
 
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
+<div class="modal fade effect-scale" id="chgRoleUser" role="dialog" aria-labelledby="chgRoleUserLabel" aria-modal="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bd-0 d-flex align-items-center pd-b-0">
+                <h5 class="tx-poppins tx-medium mg-b-0">Hak Akses</h5>
+                <button type="button" class="btn btn-icon btn-sp-icon tx-poppins tx-medium bdr-sp-50p d-flex align-items-center" data-dismiss="modal"><ion-icon name="close" class="mg-y-2 tx-18"></ion-icon></button>
+            </div>
+            <div class="modal-body">
+                <p>Saat ini Anda berperan sebagai <b>Pegawai</b>.</p>
+                <div class="form-group form-floating">
+                    <select class="form-select" id="select_user" required>
+                        <option value="">Pilih salah satu</option>
+                        <option value="beranda/index.php">Pegawai</option>
+                        <option value="beranda/admin-index.php">Administrator Institut Teknologi Sepuluh Nopember</option>
+                    </select>
+                    <label for="select_user">Hak Akses Anda</label>
                 </div>
             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
+                <input class="btn btn-its-3 tx-poppins tx-medium" type="button" id="goBtn" value="Ganti">
+            </div>
         </div>
-    </body>
+    </div>
+</div>
+
+<aside class="aside aside-fixed">
+  <div class="aside-header">
+    <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+        <img src="assets/img/portfolio-organization.svg" class="ht-35">
+        <p class="tx-poppins tx-medium tx-13 tx-md-15 tx-color-02 mg-b-0 mg-l-15">myITS <span class="tx-bold">HumanCapital</span></p>
+    </a>
+    <a href="" class="aside-menu-link">
+      <ion-icon name="menu" class="mg-y-2 tx-18"></ion-icon>
+    </a>
+  </div>
+  <div class="aside-body">
+    <ul class="sidebar-nav">
+      <li class="nav-item"><a href="." class="nav-link-its-active tx-poppins tx-medium text-truncate"><img src="assets/img/home.svg" class="wd-20 mg-r-15">Beranda</a></li>
+      <li class="nav-item"><a href="profil" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/profile-blank.png" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
+      <li class="nav-item"><a href="berkas" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/folder.svg" class="wd-20 mg-r-15">Berkas Saya</a></li>
+      <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow-menu"><a href="portofolio" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="assets/img/portfolio.svg" class="wd-20 mg-r-15">Portofolio</a>
+          <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-portofolio" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-forward" class="mg-y-2 tx-18 icon-menu"></ion-icon></button>
+      </li>
+      <div class="collapse" id="collapse-menu-portofolio">
+        <li class="nav-item mg-l-15"><a href="/portofolio/bahan-ajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-bahan-ajar.svg" class="wd-20 mg-r-15">Bahan Ajar</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/detasering" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-detasering.svg" class="wd-20 mg-r-15">Detasering</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/diklat" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-training.svg" class="wd-20 mg-r-15">Diklat</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/hki" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-ipr.svg" class="wd-20 mg-r-15">HKI</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/karya-cipta" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-ipr.svg" class="wd-20 mg-r-15">Karya Cipta</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/karyailmiah" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-scientific.svg" class="wd-20 mg-r-15">Karya Ilmiah</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/kepanitiaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-intern.svg" class="wd-20 mg-r-15">Kepanitiaan</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/organisasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-organization.svg" class="wd-20 mg-r-15">Organisasi Profesi</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/pembicara" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-activity.svg" class="wd-20 mg-r-15">Pembicara</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/penelitian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-enterpreneurship.svg" class="wd-20 mg-r-15">Penelitian</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/pengabdian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-dedication.svg" class="wd-20 mg-r-15">Pengabdian</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/pengelola-jurnal" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-jurnal.svg" class="wd-20 mg-r-15">Pengelola Jurnal</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/penghargaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-competition.svg" class="wd-20 mg-r-15">Penghargaan</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/riwayat-pekerjaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-enterpreneurship.svg" class="wd-20 mg-r-15">Riwayat Pekerjaan</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/sertifikasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-certification.svg" class="wd-20 mg-r-15">Sertifikasi</a></li>
+        <li class="nav-item mg-l-15"><a href="/portofolio/tes" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-certification.svg" class="wd-20 mg-r-15">Tes</a></li>
+      </div>
+      <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow-menu"><a href="kepegawaian" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="assets/img/scholarship-profile.svg" class="wd-20 mg-r-15">Kepegawaian</a>
+          <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-kepegawaian" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-forward" class="mg-y-2 tx-18 icon-menu"></ion-icon></button>
+      </li>
+      <div class="collapse" id="collapse-menu-kepegawaian">
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/hukuman" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-hukuman.svg" class="wd-20 mg-r-15">Hukuman</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/kepangkatan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-kepangkatan.svg" class="wd-20 mg-r-15">Kepangkatan</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/kesejahteraan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-kesejahteraan.svg" class="wd-20 mg-r-15">Kesejahteraan</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/pemberhentian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-pemberhentian.svg" class="wd-20 mg-r-15">Pemberhentian</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/tugas-belajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-tugas-belajar.svg" class="wd-20 mg-r-15">Tugas Belajar</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-jabfung" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-jabatan.svg" class="wd-20 mg-r-15">Riwayat Jabfung</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-jabstruk" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/riwayat-jabatan.svg" class="wd-20 mg-r-15">Riwayat Jabstruk</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-gaji" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Riwayat Kenaikan Gaji</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/inpassing" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Inpassing</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Beasiswa</a></li>
+        <li class="nav-item mg-l-15"><a href="/kepegawaian/tunjangan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Tunjangan</a></li>
+      </div>
+      <li class="nav-item d-flex justify-content-between align-items-center"><a href="beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="assets/img/skem.svg" class="wd-20 mg-r-15">Qinerja</a>
+    </ul>
+  </div>
+</aside>
+
+<!-- Navigation Rail -->
+<!-- <div class="pos-fixed l-20 t-80 d-none d-lg-block z-index-10">
+    <ul class="list-group">
+        <li class="list-group-item-sp"><a href="beranda" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Beranda"><img src="assets/img/home.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href="profil" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Profil"><img src="assets/img/profile-blank.png" class="wd-20 ht-20 rounded-circle" style="object-fit: cover;"></a></li>
+        <li class="list-group-item-sp"><a href="berkas" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Berkas"><img src="assets/img/folder.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href="portofolio" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Portofolio"><img src="assets/img/portfolio.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href="skem" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="SKEM"><img src="assets/img/skem.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href="beasiswa" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Beasiswa"><img src="assets/img/scholarship.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href="magang" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Magang"><img src="assets/img/intern.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href="kewirausahaan" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Kewirausahaan"><img src="assets/img/enterpreneur.svg" class="wd-20"></a></li>
+    </ul>
+</div> -->
+
+  <div class="content pd-0" style="position: relative">
+    <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-10 mg-t-60">
+      <div class="content-body">
+        <div class="container pd-x-0 mn-ht-500" id="content">
+          <div class="row row-xs">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mg-b-20 mg-sm-b-20 mg-lg-b-30">
+              <div class="card bd-0 pos-relative" style="background-image: url(assets/img/cover-beranda.svg); background-position: center top; background-size:cover;">
+                <div class="card-body ht-300">
+                  <p class="tx-poppins tx-regular tx-white tx-30 mg-b-0">Hai!</p>
+                  <p class="tx-poppins tx-light tx-white tx-15">Selamat datang di myITS HumanCapital</p>
+                  <div class="d-flex justify-content-start align-items-center pd-y-20">
+                    <a href="profil">
+                      <div class="media d-flex align-items-center">
+                        <div class="avatar">
+                          <img src="assets/img/profile-blank.png" class="rounded-circle" alt="">
+                        </div>
+                        <div class="media-body tx-white text-left mg-l-15">
+                          <p class="tx-poppins tx-medium mg-b-0">Arjuna, S.Kom., M.Kom.</p>
+                          <p class="tx-13 mg-b-0">Pegawai</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="pos-absolute b-0 l-0 r-0 pd-10 pd-md-20">
+                    <div class="wd-100p">
+                      <div class="card-body blur-transparent rounded-its-10 shadow">
+                        <div id="carouselExample2" class="carousel slide" data-ride="carousel">
+                          <div class="d-flex align-items-center">
+                            <img src="assets/img/announcement.svg" class="wd-30 mg-r-20 d-none d-lg-block">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <p class="tx-poppins tx-medium mg-b-0 tx-15">Unduh Petunjuk Teknis PAK</p>
+                                <p class="tx-13 tx-color-03 mg-b-0">Penjelasan tentang penggunaan pengisian PAK dan lain-lain. <a class="tx-poppins tx-medium tx-color-its" href="#">Unduh di sini</a>.</p>
+                              </div>
+                              <div class="carousel-item">
+                                <p class="tx-poppins tx-medium mg-b-0 tx-15">Perbarui portofolio sertifikasi</p>
+                                <p class="tx-13 tx-color-03 mg-b-0">Harap memperbarui isian tanggal mulai, tanggal selesai, skala dan disiplin.</p>
+                              </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                              <a class="btn btn-icon btn-its-icon-1 rounded-its-50p d-none d-lg-block mg-r-5" href="#carouselExample2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon-its d-flex align-items-center" aria-hidden="true"><ion-icon name="chevron-back" class="mg-y-2 tx-18"></ion-icon></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="btn btn-icon btn-its-icon-1 rounded-its-50p d-none d-lg-block" href="#carouselExample2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon-its d-flex align-items-center" aria-hidden="true"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                          </div>
+                          <ol class="carousel-indicators d-lg-none" style="position: inherit !important; margin-bottom: 0px !important;">
+                            <li data-target="#carouselExample2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExample2" data-slide-to="1"></li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row row-xs">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mg-b-5">
+                  <h5 class="tx-poppins tx-medium">Layanan</h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                  <div class="card bd-0">
+                    <div class="card-body">
+                      <img src="assets/img/folder.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Berkas Saya</p>
+                      <p class="tx-13 tx-color-03">Berkas yang telah Anda unggah akan tampil di sini.</p>
+                      <a class="btn btn-white tx-poppins tx-medium" href="berkas">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                  <div class="card bd-0">
+                    <div class="card-body">
+                      <img src="assets/img/profile-blank.png" class="rounded-circle wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Profil</p>
+                      <p class="tx-13 tx-color-03">Lihat dan kelola biodata Anda di sini.</p>
+                      <a class="btn btn-white tx-poppins tx-medium" href="portofolio">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                  <div class="card bd-0">
+                    <div class="card-body">
+                      <img src="assets/img/portfolio.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Portofolio</p>
+                      <p class="tx-13 tx-color-03">Buat dan kelola portofolio dari berbagai kategori.</p>
+                      <a class="btn btn-white tx-poppins tx-medium" href="portofolio">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                  <div class="card bd-0">
+                    <div class="card-body">
+                      <img src="assets/img/scholarship-profile.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Kepegawaian</p>
+                      <p class="tx-13 tx-color-03">Lihat dan kelola data kepegawaian Anda di sini.</p>
+                      <a class="btn btn-white tx-poppins tx-medium" href="skem">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                  <div class="card bd-0">
+                    <div class="card-body">
+                      <img src="assets/img/skem.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Qinerja</p>
+                      <p class="tx-13 tx-color-03">Lihat dan kelola kinerja di sini.</p>
+                      <a class="btn btn-white tx-poppins tx-medium" href="magang">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-sm-12 col-lg-12 mg-b-20 fixed-bottom d-flex justify-content-center animated slideInUp">
+              <div class="card bd-0 wd-100p wd-lg-80p shadow">
+                <div class="card-body d-flex justify-content-between align-items-center">
+                  <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center"><i class="fas fa-check-circle fa-lg tx-success mg-r-10"></i> Portofolio sudah lengkap</p>
+                  <a class="btn btn-its tx-poppins tx-medium rounded-pill" href="#">Ajukan</a>
+                </div>
+              </div>
+            </div> -->
+
+          </div><!-- row -->
+        </div><!-- container -->
+        <div class="d-none d-lg-block">
+          <div class="bd-t bd-2 mg-t-10">
+            <div class="d-flex align-items-center row row-xs mg-t-10">
+              <div class="col-lg-10">
+                <span class="tx-medium tx-color-03 tx-13">Copyright &copy; 2021 Institut Teknologi Sepuluh Nopember</span>
+              </div>
+              <div class="col-lg-2 mg-lg-t-0 d-flex justify-content-end">
+                  <img src="assets/img/advhum-blue.png" height="60" class="mg-r-10">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-lg-none">
+          <div class="bd-t bd-2 mg-t-10">
+            <div class="d-flex align-items-center row row-x mg-t-20">
+              <div class="col-lg-10 d-flex justify-content-center">
+                <span class="tx-medium tx-color-03 tx-13">Copyright &copy; 2021 Institut Teknologi Sepuluh Nopember</span>
+              </div>
+              <div class="col-lg-12 d-flex justify-content-center">
+                  <img src="assets/img/advhum-blue.png" height="60" class="mg-r-10">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade effect-scale" id="photoprofil" tabindex="-1" role="dialog" aria-labelledby="photoprofil" aria-hidden="true">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content tx-14 bg-white pd-10">
+          <img src="assets/img/profile-blank.png" class="rounded-its2 wd-100p mg-b-10" alt="">
+          <a href="https://my.its.ac.id/sso/account" class="btn btn-white tx-poppins tx-semibold" target="_blank">Edit Foto Profil</a>
+        </div>
+      </div>
+    </div>
+    
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/feather-icons/feather.min.js"></script>
+    <script src="lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!-- <script src="lib/prismjs/prism.js"></script> -->
+    <script src="lib/js-cookie/js.cookie.js"></script>
+    <script src="assets/js/dashforge.js"></script>
+    <script src="assets/js/dashforge.aside.js"></script>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!-- Script base -->
+    <script>
+    $(function(){
+        'use strict'
+
+        $('.off-canvas-menu').on('click', function(e){
+            e.preventDefault();
+            var target = $(this).attr('href');
+            $(target).addClass('show');
+        });
+
+        $('.off-canvas .close').on('click', function(e){
+            e.preventDefault();
+            $(this).closest('.off-canvas').removeClass('show');
+        })
+
+        $(document).on('click touchstart', function(e){
+            e.stopPropagation();
+            if(!$(e.target).closest('.off-canvas-menu').length) {
+            var offCanvas = $(e.target).closest('.off-canvas').length;
+            if(!offCanvas) {
+                $('.off-canvas.show').removeClass('show');
+            }
+            }
+        });
+    });
+    </script>
+
+    <script>
+        $('[data-toggle="tooltip"]').tooltip();
+    </script>
+
+    <script>
+        $(document).on('click', '.allow-focus', function (e) {
+            e.stopPropagation();
+        });
+    </script>
+
+    <script>
+        $(".custom-file-input").on("change", function() {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+
+    <!-- Sementara -->
+    <script>
+        var goBtn = document.getElementById("goBtn");
+        var select_user = document.getElementById("select_user");
+
+        goBtn.onclick = function() {
+        window.location = select_user.value;
+        }
+    </script>
+    <script>
+      $(function(){
+        'use strict'
+
+        $('[data-toggle="tooltip"]').tooltip()
+
+        $('.df-example .btn-primary').tooltip({
+          template: '<div class="tooltip tooltip-primary" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
+        })
+
+        $('.df-example .btn-secondary').tooltip({
+          template: '<div class="tooltip tooltip-secondary" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
+        })
+
+        $('.df-example .btn-success').tooltip({
+          template: '<div class="tooltip tooltip-success" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
+        })
+
+        $('.df-example .btn-danger').tooltip({
+          template: '<div class="tooltip tooltip-danger" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
+        })
+
+
+      });
+    </script>
+
+  </body>
 </html>

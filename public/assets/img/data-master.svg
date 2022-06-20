@@ -1,0 +1,25 @@
+<svg id="data-master" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.538" x2="0.403" y2="0.954" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1" stop-color="#8a8a8a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.163" y1="0.401" x2="0.564" y2="1.106" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce48"/>
+      <stop offset="1" stop-color="#ea8c2f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.709" x2="0.902" y2="1.647" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#a2a2a2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_60" data-name="Group 60">
+    <path id="Union_92" data-name="Union 92" d="M0,349.457V155.613C0,69.671,177.295,0,396,0S792,69.671,792,155.613V349.457c0,85.941-177.3,155.613-396,155.613S0,435.4,0,349.457Z" transform="translate(143.998 572.93)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_91" data-name="Ellipse 91" cx="396" cy="156.535" rx="396" ry="156.535" transform="translate(144 572.93)" fill="rgba(0,0,0,0.24)"/>
+    <path id="Union_92-2" data-name="Union 92" d="M0,349.457V155.613C0,69.672,177.295,0,396,0S792,69.672,792,155.613V349.457c0,85.941-177.3,155.613-396,155.613S0,435.4,0,349.457Z" transform="translate(143.998 287.465)" fill="url(#linear-gradient-2)"/>
+    <ellipse id="Ellipse_91-2" data-name="Ellipse 91" cx="396" cy="156.535" rx="396" ry="156.535" transform="translate(144 287.465)" fill="rgba(0,0,0,0.24)"/>
+    <path id="Union_92-3" data-name="Union 92" d="M0,349.458V155.613C0,69.671,177.295,0,396,0S792,69.671,792,155.613V349.458c0,85.941-177.3,155.612-396,155.612S0,435.4,0,349.458Z" transform="translate(143.998 2)" fill="url(#linear-gradient-3)"/>
+    <ellipse id="Ellipse_91-3" data-name="Ellipse 91" cx="396" cy="156.535" rx="396" ry="156.535" transform="translate(144 2)" fill="rgba(255,255,255,0.55)"/>
+  </g>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+</svg>

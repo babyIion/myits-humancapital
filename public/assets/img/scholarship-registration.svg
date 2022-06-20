@@ -1,0 +1,27 @@
+<svg id="scholarship-registration" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.404" y1="0.569" x2="1.381" y2="0.338" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4d4d4"/>
+      <stop offset="1" stop-color="#e9e9e9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#434343"/>
+      <stop offset="1" stop-color="#676767"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.918" y1="0.423" x2="0.218" y2="1.04" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ae0202"/>
+      <stop offset="1" stop-color="#8f0808"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.091" y1="0.758" x2="1.159" y2="-0.883" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#d4d4d4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_184" data-name="Group 184" transform="translate(-0.866 1.082)">
+    <path id="Union_285" data-name="Union 285" d="M735.158,1007.807,30.794,303.443a105,105,0,0,1,0-148.493L154.95,30.794a105,105,0,0,1,148.492,0l704.363,704.363a105,105,0,0,1,0,148.493L883.65,1007.807a105,105,0,0,1-148.492,0Z" transform="translate(2.826 0.363)" fill="url(#linear-gradient)"/>
+    <path id="Union_287" data-name="Union 287" d="M202.77,233.522,15.832,165.607a24,24,0,0,1-8.775-39.528L126.079,7.057a24,24,0,0,1,39.528,8.775L233.523,202.77c5.934,16.335-6.705,32.243-22.434,32.245A24.272,24.272,0,0,1,202.77,233.522Z" transform="translate(844.365 841.902)" fill="url(#linear-gradient-2)"/>
+    <path id="Union_288" data-name="Union 288" d="M31.675,304.323a108,108,0,0,1,0-152.735L151.588,31.675a108,108,0,0,1,152.735,0l91.933,91.934L123.609,396.257Z" transform="translate(4.067 1.604)" fill="url(#linear-gradient-3)"/>
+    <path id="Union_286" data-name="Union 286" d="M36.663,309.312,0,272.649,272.649,0l36.663,36.663a88,88,0,0,1,0,124.451l-148.2,148.2a88,88,0,0,1-124.451,0Z" transform="translate(712.029 709.567)" fill="url(#linear-gradient-4)"/>
+  </g>
+  <rect id="Rectangle_299" data-name="Rectangle 299" width="1080" height="1080" fill="none"/>
+</svg>

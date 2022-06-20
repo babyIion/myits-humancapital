@@ -1,0 +1,18 @@
+<svg id="enterpreneur-stat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.099" y1="1.174" x2="1.494" y2="-0.04" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd0"/>
+      <stop offset="1" stop-color="#ffa200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.024" y1="0.925" x2="1.166" y2="0.25" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#64b5f6"/>
+      <stop offset="1" stop-color="#1e88e5"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_177" data-name="Rectangle 177" width="1080" height="1080" fill="none"/>
+  <g id="Group_262" data-name="Group 262" transform="translate(2 1078) rotate(-90)">
+    <path id="Union_434" data-name="Union 434" d="M80,719A80,80,0,0,1,0,639V80A80,80,0,0,1,80,0H240a80,80,0,0,1,80,80V639a80,80,0,0,1-80,80Z" transform="translate(0.001 698) rotate(-90)" fill="url(#linear-gradient)"/>
+    <path id="Union_512" data-name="Union 512" d="M80,461A80,80,0,0,1,0,381V80A80,80,0,0,1,80,0H240a80,80,0,0,1,80,80V381a80,80,0,0,1-80,80Z" transform="translate(0 320.001) rotate(-90)" fill="url(#linear-gradient)"/>
+    <path id="Union_511" data-name="Union 511" d="M80,1076A80,80,0,0,1,0,996V80A80,80,0,0,1,80,0H240a80,80,0,0,1,80,80V996a80,80,0,0,1-80,80Z" transform="translate(0 1076) rotate(-90)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
