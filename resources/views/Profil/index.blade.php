@@ -1,0 +1,154 @@
+@extends('Ui.base')
+
+@section('title')
+Profil
+@endsection
+
+@section('menu')
+<aside class="aside aside-fixed">
+    <div class="aside-header">
+      <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+          <img src="assets/img/portfolio-organization.svg" class="ht-35">
+          <p class="tx-poppins tx-medium tx-13 tx-md-15 tx-color-02 mg-b-0 mg-l-15">myITS <span class="tx-bold">HumanCapital</span></p>
+      </a>
+      <a href="" class="aside-menu-link">
+        <ion-icon name="menu" class="mg-y-2 tx-18"></ion-icon>
+      </a>
+    </div>
+    <div class="aside-body">
+      <ul class="sidebar-nav">
+        <li class="nav-item"><a href="." class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/home.svg" class="wd-20 mg-r-15">Beranda</a></li>
+        <li class="nav-item"><a href="profil" class="nav-link-its-active tx-poppins tx-medium text-truncate"><img src="assets/img/profile-blank.png" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
+        <li class="nav-item"><a href="berkas" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/folder.svg" class="wd-20 mg-r-15">Berkas Saya</a></li>
+        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow-menu"><a href="portofolio" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="assets/img/portfolio.svg" class="wd-20 mg-r-15">Portofolio</a>
+            <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-portofolio" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-forward" class="mg-y-2 tx-18 icon-menu"></ion-icon></button>
+        </li>
+        <div class="collapse" id="collapse-menu-portofolio">
+          <li class="nav-item mg-l-15"><a href="/portofolio/bahan-ajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-bahan-ajar.svg" class="wd-20 mg-r-15">Bahan Ajar</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/detasering" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-detasering.svg" class="wd-20 mg-r-15">Detasering</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/diklat" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-training.svg" class="wd-20 mg-r-15">Diklat</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/hki" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-ipr.svg" class="wd-20 mg-r-15">HKI</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/karya-cipta" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-ipr.svg" class="wd-20 mg-r-15">Karya Cipta</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/karyailmiah" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-scientific.svg" class="wd-20 mg-r-15">Karya Ilmiah</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/kepanitiaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-intern.svg" class="wd-20 mg-r-15">Kepanitiaan</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/organisasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-organization.svg" class="wd-20 mg-r-15">Organisasi Profesi</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/pembicara" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-activity.svg" class="wd-20 mg-r-15">Pembicara</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/penelitian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-enterpreneurship.svg" class="wd-20 mg-r-15">Penelitian</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/pengabdian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-dedication.svg" class="wd-20 mg-r-15">Pengabdian</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/pengelola-jurnal" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-jurnal.svg" class="wd-20 mg-r-15">Pengelola Jurnal</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/penghargaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-competition.svg" class="wd-20 mg-r-15">Penghargaan</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/riwayat-pekerjaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-enterpreneurship.svg" class="wd-20 mg-r-15">Riwayat Pekerjaan</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/sertifikasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-certification.svg" class="wd-20 mg-r-15">Sertifikasi</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/tes" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/portfolio-certification.svg" class="wd-20 mg-r-15">Tes</a></li>
+        </div>
+        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow-menu"><a href="kepegawaian" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="assets/img/scholarship-profile.svg" class="wd-20 mg-r-15">Kepegawaian</a>
+            <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-kepegawaian" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-forward" class="mg-y-2 tx-18 icon-menu"></ion-icon></button>
+        </li>
+        <div class="collapse" id="collapse-menu-kepegawaian">
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/hukuman" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-hukuman.svg" class="wd-20 mg-r-15">Hukuman</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/kepangkatan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-kepangkatan.svg" class="wd-20 mg-r-15">Kepangkatan</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/kesejahteraan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-kesejahteraan.svg" class="wd-20 mg-r-15">Kesejahteraan</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/pemberhentian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-pemberhentian.svg" class="wd-20 mg-r-15">Pemberhentian</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/tugas-belajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-tugas-belajar.svg" class="wd-20 mg-r-15">Tugas Belajar</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-jabfung" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-jabatan.svg" class="wd-20 mg-r-15">Riwayat Jabfung</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-jabstruk" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/riwayat-jabatan.svg" class="wd-20 mg-r-15">Riwayat Jabstruk</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-gaji" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Riwayat Kenaikan Gaji</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/inpassing" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Inpassing</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Beasiswa</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/tunjangan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="assets/img/hcm-riwayat-gaji.svg" class="wd-20 mg-r-15">Tunjangan</a></li>
+        </div>
+        <li class="nav-item d-flex justify-content-between align-items-center"><a href="beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="assets/img/skem.svg" class="wd-20 mg-r-15">Qinerja</a>
+      </ul>
+    </div>
+  </aside>
+@endsection
+
+@section('content')
+<div class="content pd-0" style="position: relative">
+    <!-- Konten dihapus -->
+    <div class="content-body mg-t-60">
+      <div class="container pd-x-0 mn-ht-450 mn-ht-xxl-750" id="content">
+        <div class="row row-xs">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mg-b-20">
+              <div class="card bd-0">
+                <a href="#cover" data-toggle="modal" data-animation="effect-scale">
+                  <img src="https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" class="card-img-top ht-250" alt="..." style="object-fit: cover;">
+                </a>
+                <div class="card-body pos-relative">
+                  <div class="pos-absolute t--60">
+                    <div class="profile-pic">
+                      <img src="../assets/img/profile-blank.png" class="rounded-circle" id="profileImage" width="100" />
+                    </div>
+                  </div>
+                  <div class="mg-t-35 d-flex align-items-center justify-content-between">
+                    <div>
+                      <h5 class="tx-poppins tx-semibold mg-b-0">Arjuna, S.Kom., M.Kom.</h5>
+                      <p class="mg-b-0">Pegawai</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row row-xs">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                      <div class="card bd-0">
+                          <div class="card-body">
+                              <img src="../assets/img/intern.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                              <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Biodata</p>
+                              <p class="tx-13 tx-color-03">Lihat dan kelola data profil Anda secara lengkap.</p>
+                              <a class="btn btn-white tx-poppins tx-medium" href=""> Selengkapnya</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                      <div class="card bd-0">
+                          <div class="card-body">
+                              <img src="../assets/img/portfolio.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                              <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Anggota Keluarga</p>
+                              <p class="tx-13 tx-color-03">Lihat dan kelola data anggota keluarga Anda.</p>
+                              <a class="btn btn-white tx-poppins tx-medium" href="">Selengkapnya</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                      <div class="card bd-0">
+                          <div class="card-body">
+                              <img src="../assets/img/scholarship-profile.svg" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                              <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Pendidikan</p>
+                              <p class="tx-13 tx-color-03">Lihat riwayat pendidikan formal Anda di sini.</p>
+                              <a class="btn btn-white tx-poppins tx-medium" href="">Selengkapnya</a>
+                          </div>
+                      </div>
+                  </div>
+        </div><!-- row -->
+      </div><!-- container -->
+      <div class="d-none d-lg-block">
+        <div class="bd-t bd-2 mg-t-10">
+          <div class="d-flex align-items-center row row-xs mg-t-10">
+            <div class="col-lg-10">
+              <span class="tx-medium tx-color-03 tx-13">Copyright &copy; 2021 Institut Teknologi Sepuluh Nopember</span>
+            </div>
+            <div class="col-lg-2 mg-lg-t-0 d-flex justify-content-end">
+                <img src="../assets/img/advhum-blue.png" height="60" class="mg-r-10">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-lg-none">
+        <div class="bd-t bd-2 mg-t-10">
+          <div class="d-flex align-items-center row row-x mg-t-20">
+            <div class="col-lg-10 d-flex justify-content-center">
+              <span class="tx-medium tx-color-03 tx-13">Copyright &copy; 2021 Institut Teknologi Sepuluh Nopember</span>
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+                <img src="../assets/img/advhum-blue.png" height="60" class="mg-r-10">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+@endsection
