@@ -15,13 +15,13 @@
       <div class="dropdown dropdown-profile">
         <a href="" class="dropdown-link" data-toggle="dropdown" data-display="static">
             <div class="avatar avatar-sm">
-                <img src="assets/img/profile-blank.png" class="rounded-circle" alt="">
+                <img src="{{ asset('assets/img/profile-blank.png') }}" class="rounded-circle" alt="">
             </div>
         </a>
         <div class="dropdown-menu dropdown-menu-right allow-focus shadow rounded-its-10">
             <a href="/profil" class="dropdown-item-its tx-poppins tx-medium" style="padding-top: 20px !important; padding-bottom: 20px !important;">
                 <div class="avatar avatar-md mg-r-15">
-                    <img src="assets/img/profile-blank.png" class="rounded-circle" alt="">
+                    <img src="{{ asset('assets/img/profile-blank.png') }}" class="rounded-circle" alt="">
                 </div>
                 <div class="media-body">
                     <p class="tx-15 tx-poppins tx-semibold mg-b-0 crop-text-1 text-left">Arjuna, S.Kom., M.Kom.</p>
@@ -30,7 +30,7 @@
             </a>
             <a href="/lainnya/pengaturan" class="dropdown-item-its tx-poppins tx-medium"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="settings-sharp" class="tx-18"></ion-icon></span></div>Pengaturan Web</a>
             <a href="" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-target="#chgRoleUser" data-animation="effect-scale"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="people-sharp" class="tx-18"></ion-icon></span></div>Ganti Hak Akses</a>
-            <a href="" class="dropdown-item-its tx-poppins tx-medium"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="log-out-sharp" class="tx-18"></ion-icon></span></div>Keluar</a>
+            <a href="" class="dropdown-item-its tx-poppins tx-medium" data-toggle="modal" data-target="#keluar" data-animation="effect-scale"><div class="avatar avatar-sm mg-r-10"><span class="avatar-initial rounded-circle bg-black-1 tx-color-01"><ion-icon name="log-out-sharp" class="tx-18"></ion-icon></span></div>Keluar</a>
         </div>
       </div>
     </div>
