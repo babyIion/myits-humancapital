@@ -7,7 +7,7 @@ Bahan Ajar
 @section('menu')
 <aside class="aside aside-fixed">
     <div class="aside-header">
-      <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+      <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
         <img src="{{ asset('assets/img/logo-myits-blue.svg') }}" class="ht-20">
         <p class="tx-poppins tx-medium tx-13 tx-md-18 tx-color-02 mg-b-0 mg-l-10">HumanCapital</p>
       </a>
@@ -72,7 +72,7 @@ Bahan Ajar
             <div>
               <nav aria-label="breadcrumb" class="mg-b-10">
                 <ol class="breadcrumb breadcrumb-style2 mg-b-0">
-                  <li class="breadcrumb-item"><a href="beranda">Beranda</a></li>
+                  <li class="breadcrumb-item"><a href={{ url('') }}>Beranda</a></li>
                   <li class="breadcrumb-item"><a href="/profil">Portofolio</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Bahan Ajar</li>
                 </ol>
@@ -84,7 +84,7 @@ Bahan Ajar
                 <div>
                     <nav aria-label="breadcrumb" class="mg-b-10">
                       <ol class="breadcrumb breadcrumb-style2 mg-b-0">
-                        <li class="breadcrumb-item"><a href="beranda">Beranda</a></li>
+                        <li class="breadcrumb-item"><a href={{ url('') }}>Beranda</a></li>
                         <li class="breadcrumb-item"><a href="/profil">Portofolio</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Bahan Ajar</li>
                       </ol>
@@ -186,7 +186,7 @@ Bahan Ajar
                   <span class="tx-medium tx-color-03 tx-13">Copyright &copy; 2021 Institut Teknologi Sepuluh Nopember</span>
                 </div>
                 <div class="col-lg-2 mg-lg-t-0 d-flex justify-content-end">
-                    <img src="../assets/img/advhum-blue.png" height="60" class="mg-r-10">
+                    <img src="{{ asset('assets/img/advhum-blue.png') }}" height="60" class="mg-r-10">
                 </div>
               </div>
             </div>
@@ -198,7 +198,7 @@ Bahan Ajar
                   <span class="tx-medium tx-color-03 tx-13">Copyright &copy; 2021 Institut Teknologi Sepuluh Nopember</span>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center">
-                    <img src="../assets/img/advhum-blue.png" height="60" class="mg-r-10">
+                    <img src="{{ asset('assets/img/advhum-blue.png') }}" height="60" class="mg-r-10">
                 </div>
               </div>
             </div>

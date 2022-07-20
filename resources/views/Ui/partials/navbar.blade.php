@@ -3,8 +3,8 @@
         <!-- <a href="#menu-sidebar" class="btn btn-icon btn-sp-icon off-canvas-menu bdr-sp-50p mg-r-10 d-flex align-items-center"><ion-icon name="menu" class="mg-y-2 tx-18"></ion-icon></a> -->
     </div>
     <div class="d-flex align-items-center mg-r-10 mg-lg-r-20">
-      <div class="dropdown mg-b-0 mg-l-15">
-        <a class="btn btn-its-custom-1 tx-uppercase dropdown-toggle" href="#" data-toggle="dropdown">
+      <div class="dropdown mg-b-0 mg-r-20">
+        <a class="btn btn-its-custom-1 tx-uppercase dropdown-toggle" href="#" data-toggle="dropdown"><ion-icon name="globe-outline" class="tx-18 mg-r-5 align-middle"></ion-icon>
             ID
         </a>
         <div class="dropdown-menu dropdown-menu-right rounded-its-10 blur-transparent">

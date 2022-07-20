@@ -7,7 +7,7 @@ Beranda
 @section('menu')
 <aside class="aside aside-fixed">
     <div class="aside-header">
-      <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+      <a href={{ url('/admin') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
           <img src="{{ asset('assets/img/logo-myits-blue.svg') }}" class="ht-20">
           <p class="tx-poppins tx-medium tx-13 tx-md-18 tx-color-02 mg-b-0 mg-l-10">HumanCapital</p>
       </a>
@@ -18,46 +18,37 @@ Beranda
     <div class="aside-body">
       <ul class="sidebar-nav">
         <li class="nav-item"><a href="." class="nav-link-its-active tx-poppins tx-medium text-truncate"><img src="assets/img/home.svg" class="wd-20 mg-r-15">Beranda</a></li>
-        <li class="nav-item"><a href="profil" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/profile-blank.png') }}" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
-        <li class="nav-item"><a href="berkas" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20 mg-r-15">Berkas Saya</a></li>
-        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="{{ url('portofolio') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20 mg-r-15">Portofolio</a>
+        <li class="nav-item"><a href="{{ url('/admin/data-pegawai') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/scholarship-profile.svg') }}" class="wd-20 ht-20 mg-r-15">Data Pegawai</a></li>
+        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="{{ url('/admin/data-master') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/data-master.svg') }}" class="wd-20 mg-r-15">Data Master</a>
             <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-collapse" type="button" data-toggle="collapse" data-target="#collapse-menu-portofolio" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-up" class="mg-y-2 tx-18 icon"></ion-icon></button>
         </li>
         <div class="collapse" id="collapse-menu-portofolio">
-          <li class="nav-item mg-l-15"><a href="/portofolio/bahan-ajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-bahan-ajar.svg') }}" class="wd-20 mg-r-15">Bahan Ajar</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/detasering" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-detasering.svg') }}" class="wd-20 mg-r-15">Detasering</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/diklat" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-training.svg') }}" class="wd-20 mg-r-15">Diklat</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/hki" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-ipr.svg') }}" class="wd-20 mg-r-15">HKI</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/karya-cipta" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-ipr.svg') }}" class="wd-20 mg-r-15">Karya Cipta</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/karyailmiah" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-scientific.svg') }}" class="wd-20 mg-r-15">Karya Ilmiah</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/kepanitiaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-intern.svg') }}" class="wd-20 mg-r-15">Kepanitiaan</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/organisasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-organization.svg') }}" class="wd-20 mg-r-15">Organisasi Profesi</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/pembicara" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-activity.svg') }}" class="wd-20 mg-r-15">Pembicara</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/penelitian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-enterpreneurship.svg') }}" class="wd-20 mg-r-15">Penelitian</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/pengabdian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-dedication.svg') }}" class="wd-20 mg-r-15">Pengabdian</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/pengelola-jurnal" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-jurnal.svg') }}" class="wd-20 mg-r-15">Pengelola Jurnal</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/penghargaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-competition.svg') }}" class="wd-20 mg-r-15">Penghargaan</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/riwayat-pekerjaan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-enterpreneurship.svg') }}" class="wd-20 mg-r-15">Riwayat Pekerjaan</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/sertifikasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-certification.svg') }}" class="wd-20 mg-r-15">Sertifikasi</a></li>
-          <li class="nav-item mg-l-15"><a href="/portofolio/tes" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-certification.svg') }}" class="wd-20 mg-r-15">Tes</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/bahan-ajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-bahan-ajar.svg') }}" class="wd-20 mg-r-15">Agama</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/detasering" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-detasering.svg') }}" class="wd-20 mg-r-15">Jabatan Fungsional</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/diklat" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-training.svg') }}" class="wd-20 mg-r-15">Jabatan Struktural</a></li>
+          <li class="nav-item mg-l-15"><a href="/admin/data-master/jenis-pegawai" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-ipr.svg') }}" class="wd-20 mg-r-15">Jenis Pegawai</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/karya-cipta" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-ipr.svg') }}" class="wd-20 mg-r-15">Jenjang Pendidikan</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/karyailmiah" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-scientific.svg') }}" class="wd-20 mg-r-15">Pangkat Golongan</a></li>
+          <li class="nav-item mg-l-15"><a href="/admin/data-master/status-keaktifan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-intern.svg') }}" class="wd-20 mg-r-15">Status Keaktifan</a></li>
+          <li class="nav-item mg-l-15"><a href="/portofolio/organisasi" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/portfolio-organization.svg') }}" class="wd-20 mg-r-15">Status Kepegawaian</a></li>
         </div>
-        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="kepegawaian" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/scholarship-profile.svg') }}" class="wd-20 mg-r-15">Kepegawaian</a>
+        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="{{ url('/admin/verifikasi') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/verifikasi.svg') }}" class="wd-20 mg-r-15">Verifikasi<span class="mg-l-15 badge rounded-pill bg-info">99+</span></a>
             <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-kepegawaian" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-up" class="mg-y-2 tx-18 icon"></ion-icon></button>
         </li>
         <div class="collapse" id="collapse-menu-kepegawaian">
           <li class="nav-item mg-l-15"><a href="/kepegawaian/hukuman" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-hukuman.svg') }}" class="wd-20 mg-r-15">Hukuman</a></li>
           <li class="nav-item mg-l-15"><a href="/kepegawaian/kepangkatan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-kepangkatan.svg') }}" class="wd-20 mg-r-15">Kepangkatan</a></li>
           <li class="nav-item mg-l-15"><a href="/kepegawaian/kesejahteraan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-kesejahteraan.svg') }}" class="wd-20 mg-r-15">Kesejahteraan</a></li>
-          <li class="nav-item mg-l-15"><a href="/kepegawaian/pemberhentian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-pemberhentian.svg') }}" class="wd-20 mg-r-15">Pemberhentian</a></li>
-          <li class="nav-item mg-l-15"><a href="/kepegawaian/tugas-belajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-tugas-belajar.svg') }}" class="wd-20 mg-r-15">Tugas Belajar</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/pemberhentian" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-pemberhentian.svg') }}" class="wd-20 mg-r-15">Pengembangan Diri</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/tugas-belajar" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-tugas-belajar.svg') }}" class="wd-20 mg-r-15">Penghargaan</a></li>
           <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-jabfung" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-jabatan.svg') }}" class="wd-20 mg-r-15">Riwayat Jabfung</a></li>
           <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-jabstruk" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/riwayat-jabatan.svg') }}" class="wd-20 mg-r-15">Riwayat Jabstruk</a></li>
-          <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-gaji" class="nav-link-its tx-poppins tx-medium text-truncate" data-toggle="tooltip" data-placement="right" title="Riwayat Kenaikan Gaji"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Riwayat Kenaikan Gaji</a></li>
-          <li class="nav-item mg-l-15"><a href="/kepegawaian/inpassing" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Inpassing</a></li>
-          <li class="nav-item mg-l-15"><a href="/kepegawaian/beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Beasiswa</a></li>
-          <li class="nav-item mg-l-15"><a href="/kepegawaian/tunjangan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Tunjangan</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/riwayat-gaji" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Riwayat Kenaikan Gaji</a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/inpassing" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Riwayat Pendidikan</a></li>
+          <li class="nav-item mg-l-15"><a href="{{ url('/admin/verifikasi/sertifikasi') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Sertifikasi<span class="mg-l-15 badge rounded-pill bg-info">1</span></a></li>
+          <li class="nav-item mg-l-15"><a href="/kepegawaian/tunjangan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Studi Lanjut</a></li>
         </div>
-        <li class="nav-item d-flex justify-content-between align-items-center"><a href="{{ url('qinerja') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/skem.svg') }}" class="wd-20 mg-r-15">Qinerja</a>
+        <li class="nav-item d-flex justify-content-between align-items-center"><a href="{{ url('/admin/qinerja') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/skem.svg') }}" class="wd-20 mg-r-15">Qinerja</a>
       </ul>
     </div>
   </aside>
@@ -82,7 +73,7 @@ Beranda
                         </div>
                         <div class="media-body tx-white text-left mg-l-15">
                           <p class="tx-poppins tx-medium mg-b-0">Arjuna, S.Kom., M.Kom.</p>
-                          <p class="tx-13 mg-b-0">Pegawai</p>
+                          <p class="tx-13 mg-b-0">Administrator</p>
                         </div>
                       </div>
                     </a>
@@ -134,30 +125,10 @@ Beranda
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
                   <div class="card bd-0">
                     <div class="card-body">
-                      <img src="{{ asset('assets/img/folder.svg') }}" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
-                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Berkas Saya</p>
-                      <p class="tx-13 tx-color-03">Berkas yang telah Anda unggah akan tampil di sini.</p>
-                      <a class="btn btn-its-3 tx-poppins tx-regular" href="berkas">Selengkapnya</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
-                  <div class="card bd-0">
-                    <div class="card-body">
-                      <img src="{{ asset('assets/img/profile-blank.png') }}" class="rounded-circle wd-40 mg-r-20 mg-t-5 mg-b-20">
-                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Profil</p>
-                      <p class="tx-13 tx-color-03">Lihat dan kelola biodata Anda di sini.</p>
-                      <a class="btn btn-its-3 tx-poppins tx-regular" href="profil">Selengkapnya</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
-                  <div class="card bd-0">
-                    <div class="card-body">
-                      <img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
-                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Portofolio</p>
-                      <p class="tx-13 tx-color-03">Buat dan kelola portofolio dari berbagai kategori.</p>
-                      <a class="btn btn-its-3 tx-poppins tx-regular" href="portofolio">Selengkapnya</a>
+                      <img src="{{ asset('assets/img/data-master.svg') }}" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Data Master</p>
+                      <p class="tx-13 tx-color-03">Lihat dan kelola data referensi di sini.</p>
+                      <a class="btn btn-its-3 tx-poppins tx-regular" href="{{ url('/admin/data-master') }}">Selengkapnya</a>
                     </div>
                   </div>
                 </div>
@@ -165,9 +136,19 @@ Beranda
                   <div class="card bd-0">
                     <div class="card-body">
                       <img src="{{ asset('assets/img/scholarship-profile.svg') }}" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
-                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Kepegawaian</p>
-                      <p class="tx-13 tx-color-03">Lihat dan kelola data kepegawaian Anda di sini.</p>
-                      <a class="btn btn-its-3 tx-poppins tx-regular" href="kepegawaian">Selengkapnya</a>
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Data Pegawai</p>
+                      <p class="tx-13 tx-color-03">Lihat dan kelola data pegawai di sini.</p>
+                      <a class="btn btn-its-3 tx-poppins tx-regular" href="{{ url('/admin/data-pegawai') }}">Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mg-b-10">
+                  <div class="card bd-0">
+                    <div class="card-body">
+                      <img src="{{ asset('assets/img/verifikasi.svg') }}" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
+                      <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Verifikasi<span class="badge badge-info-transparent tx-11 mg-l-10">Menunggu verifikasi<span class="mg-l-15 badge rounded-pill bg-info">1</span></span></p>
+                      <p class="tx-13 tx-color-03">Lakukan verifikasi portofolio dari pegawai.</p>
+                      <a class="btn btn-its-3 tx-poppins tx-regular" href="{{ url('/admin/verifikasi') }}">Selengkapnya</a>
                     </div>
                   </div>
                 </div>
@@ -176,8 +157,8 @@ Beranda
                     <div class="card-body">
                       <img src="{{ asset('assets/img/skem.svg') }}" class="wd-40 mg-r-20 mg-t-5 mg-b-20">
                       <p class="tx-poppins tx-medium mg-b-0 tx-15 d-flex align-items-center">Qinerja</p>
-                      <p class="tx-13 tx-color-03">Lihat dan kelola kinerja di sini.</p>
-                      <a class="btn btn-its-3 tx-poppins tx-regular" href="qinerja">Selengkapnya</a>
+                      <p class="tx-13 tx-color-03">Lihat dan kelola kinerja pegawai di sini.</p>
+                      <a class="btn btn-its-3 tx-poppins tx-regular" href="{{ url('/admin/qinerja') }}">Selengkapnya</a>
                     </div>
                   </div>
                 </div>

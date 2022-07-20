@@ -44,7 +44,7 @@ Berkas Saya
 @section('menu')
 <aside class="aside aside-fixed">
   <div class="aside-header">
-    <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+    <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
       <img src="{{ asset('assets/img/logo-myits-blue.svg') }}" class="ht-20">
       <p class="tx-poppins tx-medium tx-13 tx-md-18 tx-color-02 mg-b-0 mg-l-10">HumanCapital</p>
     </a>
@@ -54,10 +54,10 @@ Berkas Saya
   </div>
   <div class="aside-body">
     <ul class="sidebar-nav">
-      <li class="nav-item"><a href="beranda" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/home.svg') }}" class="wd-20 mg-r-15">Beranda</a></li>
-      <li class="nav-item"><a href="profil" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
-      <li class="nav-item"><a href="berkas" class="nav-link-its-active tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20 mg-r-15">Berkas Saya</a></li>
-      <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="portofolio" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20 mg-r-15">Portofolio</a>
+      <li class="nav-item"><a href="{{ url('/') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/home.svg') }}" class="wd-20 mg-r-15">Beranda</a></li>
+      <li class="nav-item"><a href="{{ url('profil') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/profile-blank.png') }}" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
+      <li class="nav-item"><a href="{{ url('berkas') }}" class="nav-link-its-active tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20 mg-r-15">Berkas Saya</a></li>
+      <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="{{ url('portofolio') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20 mg-r-15">Portofolio</a>
           <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-portofolio" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-up" class="mg-y-2 tx-18 icon"></ion-icon></button>
       </li>
       <div class="collapse" id="collapse-menu-portofolio">
@@ -94,7 +94,7 @@ Berkas Saya
         <li class="nav-item mg-l-15"><a href="kepegawaian/beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Beasiswa</a></li>
         <li class="nav-item mg-l-15"><a href="kepegawaian/tunjangan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Tunjangan</a></li>
       </div>
-      <li class="nav-item d-flex justify-content-between align-items-center"><a href="qinerja" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/skem.svg') }}" class="wd-20 mg-r-15">Qinerja</a>
+      <li class="nav-item d-flex justify-content-between align-items-center"><a href="{{ url('qinerja') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/skem.svg') }}" class="wd-20 mg-r-15">Qinerja</a>
     </ul>
   </div>
 </aside>
@@ -105,7 +105,10 @@ Berkas Saya
       <!-- Konten dihapus -->
       <div class="content-body mg-t-60">
         <div class="container pd-x-0 mn-ht-450 mn-ht-xxl-750" id="content">
-          <div class="d-flex align-items-center justify-content-between mg-b-20 mg-sm-b-25 mg-lg-b-25">
+          <div class="d-flex align-items-center justify-content-start mg-b-20 mg-sm-b-20 mg-lg-b-20">
+            <div>
+              <a href="{{ url('/') }}" class="btn btn-white tx-poppins tx-medium mg-r-15"><i data-feather="arrow-left" class="wd-10 mg-r-5"></i>Kembali</a>
+            </div>
             <div>
               <h4 class="tx-poppins tx-medium mg-b-0">Berkas Saya</h4>
             </div>

@@ -7,7 +7,7 @@ Portofolio
 @section('menu')
 <aside class="aside aside-fixed">
     <div class="aside-header">
-        <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+        <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
             <img src="{{ asset('assets/img/logo-myits-blue.svg') }}" class="ht-20">
             <p class="tx-poppins tx-medium tx-13 tx-md-18 tx-color-02 mg-b-0 mg-l-10">HumanCapital</p>
             </a>
@@ -17,10 +17,10 @@ Portofolio
     </div>
     <div class="aside-body">
       <ul class="sidebar-nav">
-        <li class="nav-item"><a href="/" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/home.svg') }}" class="wd-20 mg-r-15">Beranda</a></li>
-        <li class="nav-item"><a href="profil" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/profile-blank.png') }}" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
-        <li class="nav-item"><a href="berkas" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20 mg-r-15">Berkas Saya</a></li>
-        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="portofolio" class="nav-link-its-active tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20 mg-r-15">Portofolio</a>
+        <li class="nav-item"><a href="{{ url('/') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/home.svg') }}" class="wd-20 mg-r-15">Beranda</a></li>
+        <li class="nav-item"><a href="{{ url('profil') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/profile-blank.png') }}" class="wd-20 ht-20 mg-r-15 img-fluid rounded-circle" style="object-fit: cover;">Profil</a></li>
+        <li class="nav-item"><a href="{{ url('berkas') }}" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20 mg-r-15">Berkas Saya</a></li>
+        <li class="nav-item d-flex justify-content-between align-items-center collapse-arrow"><a href="{{ url('portofolio') }}" class="nav-link-its-active tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20 mg-r-15">Portofolio</a>
             <button class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center" type="button" data-toggle="collapse" data-target="#collapse-menu-portofolio" aria-expanded="false" aria-controls="collapse-menu-portofolio"><ion-icon name="chevron-up" class="mg-y-2 tx-18 icon"></ion-icon></button>
         </li>
         <div class="collapse" id="collapse-menu-portofolio">
@@ -57,7 +57,7 @@ Portofolio
           <li class="nav-item mg-l-15"><a href="/kepegawaian/beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Beasiswa</a></li>
           <li class="nav-item mg-l-15"><a href="/kepegawaian/tunjangan" class="nav-link-its tx-poppins tx-medium text-truncate"><img src="{{ asset('assets/img/hcm-riwayat-gaji.svg') }}" class="wd-20 mg-r-15">Tunjangan</a></li>
         </div>
-        <li class="nav-item d-flex justify-content-between align-items-center"><a href="beasiswa" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/skem.svg') }}" class="wd-20 mg-r-15">Qinerja</a>
+        <li class="nav-item d-flex justify-content-between align-items-center"><a href="{{ url('qinerja') }}" class="nav-link-its tx-poppins tx-medium text-truncate flex-grow-1"><img src="{{ asset('assets/img/skem.svg') }}" class="wd-20 mg-r-15">Qinerja</a>
       </ul>
     </div>
   </aside>
@@ -88,8 +88,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/hcm-bahan-ajar.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.bahan_ajar') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.bahan_ajar_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Bahan Ajar</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Berisi bahan ajar yang digunakan.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -104,8 +104,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-enterpreneurship.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.penelitian') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.penelitian_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Penelitian</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Penelitian dosen dan sebagainya.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -120,8 +120,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/hcm-detasering.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.datasering') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.datasering_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Detasering</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Penempatan pegawai untuk bertugas di suatu tempat.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -136,8 +136,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-dedication.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.pengabdian') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.pengabdian_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Pengabdian Masyarakat</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Kegiatan Abdimas dan lain-lain.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -152,8 +152,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-ipr.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.hki') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.hki_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Hak Kekayaan Intelektual</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Hak cipta maupun paten.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -168,7 +168,7 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-ipr.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.karya_cipta') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Karya Cipta</p>
                             <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Karya cipta bukan paten.</p>
                             </div>
                         </div>
@@ -184,8 +184,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/hcm-jurnal.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.pengelola_jurnal') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.pengelola_jurnal_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Pengelola Jurnal</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Jurnal yang diterbitkan.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -200,8 +200,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-scientific.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.karya_ilmiah') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.karya_ilmiah_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Karya Ilmiah</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Jurnal maupun seminar.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -216,8 +216,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-training.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.diklat') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.diklat_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Pengembangan Diri</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Pendidikan dan Pelatihan.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -232,8 +232,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-organization.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.org_profesi') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.org_profesi_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Keanggotaan Organisasi Profesi</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Organisasi nasional dan internasional.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -248,8 +248,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-competition.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.penghargaan') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.penghargaan_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Pengharaan</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Penghargaan lokal, nasional, dan internasional.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -264,8 +264,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-intern.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.kepanitiaan') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.kepanitiaan_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Kepanitiaan</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Panitia seminar, acara internal, dan sebagainya.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -280,8 +280,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-training.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.riwayat_pekerjaan') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.riwayat_pekerjaan_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Riwayat Pekerjaan</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Riwayat pekerjaan yang telah dijabat.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -296,8 +296,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-activity.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.pembicara') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.pembicara_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Pembicara</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Narasumber dan lain-lain.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -312,8 +312,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-certification.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.sertifikasi') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.sertifikasi_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Sertifikasi</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Kompetensi, bahasa, hingga MOOC.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>
@@ -328,8 +328,8 @@ Portofolio
                         <div class="media d-flex align-items-center justify-content-center">
                             <img src="{{ asset('assets/img/portfolio-certification.svg') }}" class="wd-35 mg-r-20">
                             <div class="media-body">
-                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">{{ __('Portofolio::general.tes') }}</p>
-                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">{{ __('Portofolio::general.tes_sub') }}</p>
+                            <p class="tx-poppins tx-medium tx-color-01 mg-b-0 tx-15 crop-text-1">Tes</p>
+                            <p class="tx-13 tx-color-03 mg-b-0 crop-text-1">Tes bahasa dan lain-lain.</p>
                             </div>
                         </div>
                         <div class="btn btn-icon btn-its-custom-1 rounded-its-50p bdr-sp-50p d-flex align-items-center btn-hover"><ion-icon name="chevron-forward" class="mg-y-2 tx-18"></ion-icon></div>

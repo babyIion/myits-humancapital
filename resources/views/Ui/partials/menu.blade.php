@@ -1,6 +1,6 @@
 <aside class="aside aside-fixed">
     <div class="aside-header">
-      <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+      <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
           <img src="{{ asset('assets/img/portfolio-organization.svg') }}" class="ht-35">
           <p class="tx-poppins tx-medium tx-13 tx-md-15 tx-color-02 mg-b-0 mg-l-15">myITS <span class="tx-bold">HumanCapital</span></p>
       </a>

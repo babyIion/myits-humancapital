@@ -18,7 +18,8 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-its-custom-1 tx-poppins tx-medium" data-dismiss="modal">Batal</button>
-                <input class="btn btn-its-3 tx-poppins tx-medium" type="button" id="goBtn" value="Ganti">
+                <a href="{{ url('/admin') }}" class="btn btn-its-3 tx-poppins tx-medium">Ganti</a>
+                {{-- <button type="button" class="btn btn-its-3 tx-poppins tx-medium">Ganti</button> --}}
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ Profil
 @section('menu')
 <aside class="aside aside-fixed">
     <div class="aside-header">
-      <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+      <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
         <img src="{{ asset('assets/img/logo-myits-blue.svg') }}" class="ht-20">
         <p class="tx-poppins tx-medium tx-13 tx-md-18 tx-color-02 mg-b-0 mg-l-10">HumanCapital</p>
       </a>

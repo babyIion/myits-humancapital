@@ -48,6 +48,11 @@
     <link href="{{ asset('lib/datatables.net-responsive-dt/css/responsive.dataTables.min.css')}}" rel="stylesheet">
     <link href="{{ asset('lib/select2-bootstrap4-theme/dist/select2-bootstrap4.min.css') }}" rel="stylesheet">
 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
 
     <!-- DashForge CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/dashforge.css') }}">
@@ -75,12 +80,13 @@
 @include('Ui.partials.navbar')
 @include('Ui.partials.modal-akses')
 @include('Ui.partials.modal-keluar')
+@include('Ui.partials.modal-impersonate')
 @yield('menu')
 
 <!-- Navigation Rail -->
 <!-- <div class="pos-fixed l-20 t-80 d-none d-lg-block z-index-10">
     <ul class="list-group">
-        <li class="list-group-item-sp"><a href="beranda" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Beranda"><img src="assets/img/home.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href={{ url('') }} class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Beranda"><img src="assets/img/home.svg" class="wd-20"></a></li>
         <li class="list-group-item-sp"><a href="profil" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Profil"><img src="{{ asset('assets/img/profile-blank.png') }}" class="wd-20 ht-20 rounded-circle" style="object-fit: cover;"></a></li>
         <li class="list-group-item-sp"><a href="berkas" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Berkas"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20"></a></li>
         <li class="list-group-item-sp"><a href="portofolio" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Portofolio"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20"></a></li>
@@ -152,15 +158,6 @@
         });
     </script>
 
-    <!-- Sementara -->
-    <script>
-        var goBtn = document.getElementById("goBtn");
-        var select_user = document.getElementById("select_user");
-
-        goBtn.onclick = function() {
-        window.location = select_user.value;
-        }
-    </script>
     <script>
       $(function(){
         'use strict'
@@ -193,7 +190,7 @@
 
         $('#example1').DataTable({
           language: {
-            searchPlaceholder: 'Cari',
+            searchPlaceholder: 'Cari data...',
             sSearch: '',
             lengthMenu: '_MENU_ data/halaman',
             zeroRecords: 'Tidak ada data.',
@@ -210,7 +207,7 @@
         });
 
         // Select2
-        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
+        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity});
 
       });
     </script>

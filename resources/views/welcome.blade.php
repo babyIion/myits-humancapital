@@ -129,7 +129,7 @@
 
 <aside class="aside aside-fixed">
   <div class="aside-header">
-    <a href="beranda" class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
+    <a href={{ url('') }} class="aside-logo tx-medium tx-13 tx-md-15 tx-color-02">
         <img src="{{ asset('assets/img/portfolio-organization.svg') }}" class="ht-35">
         <p class="tx-poppins tx-medium tx-13 tx-md-15 tx-color-02 mg-b-0 mg-l-15">myITS <span class="tx-bold">HumanCapital</span></p>
     </a>
@@ -187,7 +187,7 @@
 <!-- Navigation Rail -->
 <!-- <div class="pos-fixed l-20 t-80 d-none d-lg-block z-index-10">
     <ul class="list-group">
-        <li class="list-group-item-sp"><a href="beranda" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Beranda"><img src="assets/img/home.svg" class="wd-20"></a></li>
+        <li class="list-group-item-sp"><a href={{ url('') }} class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Beranda"><img src="assets/img/home.svg" class="wd-20"></a></li>
         <li class="list-group-item-sp"><a href="profil" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Profil"><img src="assets/img/profile-blank.png" class="wd-20 ht-20 rounded-circle" style="object-fit: cover;"></a></li>
         <li class="list-group-item-sp"><a href="berkas" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Berkas"><img src="{{ asset('assets/img/folder.svg') }}" class="wd-20"></a></li>
         <li class="list-group-item-sp"><a href="portofolio" class="btn btn-icon btn-sp-list bdr-sp-10" data-toggle="tooltip" data-placement="right" title="Portofolio"><img src="{{ asset('assets/img/portfolio.svg') }}" class="wd-20"></a></li>
